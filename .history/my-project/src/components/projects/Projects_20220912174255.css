@@ -1,0 +1,60 @@
+.c-hero-banner {
+    position: relative;
+    overflow: hidden;
+}
+.c-hero-banner__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.c-hero-banner__container {
+    position: relative;
+    padding-top: 9.1875rem;
+}
+.c-hero-banner__cta-item {
+    position: absolute;
+    top: 7.4375rem;
+    right: 1.5rem;
+    text-align: right;
+}
+.c-hero-banner__content-item {
+    padding: 0 1.5rem;
+    color: #fff;
+}
+.c-hero-banner__description, .c-hero-banner__subtitle, .c-hero-banner__title {
+    overflow: hidden;
+}
+.c-hero-banner__subtitle, .c-hero-banner__title {
+    margin-bottom: 0.5rem;
+}
+p {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.o-subheading {
+    margin-top: 0;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+}
+.c-hero-banner__description, .c-hero-banner__subtitle, .c-hero-banner__title {
+    overflow: hidden;
+}
+.c-hero-banner__subtitle, .c-hero-banner__title {
+    margin-bottom: 0.5rem;
+}
+.c-hero-banner__description-inner, .c-hero-banner__subtitle-inner, .c-hero-banner__title-inner {
+    display: inline-block;
+    margin-bottom: 0;
+    transform: translateY(100%);
+    -webkit-animation: move-up 1.5s cubic-bezier(.16,1,.3,1) forwards;
+    animation: move-up 1.5s cubic-bezier(.16,1,.3,1) forwards;
+}
+.o-heading--6 {
+    font-size: 2rem;
+    line-height: 1.25;
+    letter-spacing: -.02em;
+}

@@ -1,0 +1,14 @@
+.project {
+    position: relative;
+    background-color: #fff;
+    padding: 3rem 1.5rem 1.9375rem;
+}
+.c-featured-me__inner {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 1100px){
+    .c-featured-media__container {
+        gap: min(6%,4.375rem);
+    }
+}
