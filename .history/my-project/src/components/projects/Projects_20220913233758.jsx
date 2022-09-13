@@ -1,5 +1,6 @@
 import '../../components/projects/Projects.css'
 
+
 function Projects() {   
   return (
     <section>

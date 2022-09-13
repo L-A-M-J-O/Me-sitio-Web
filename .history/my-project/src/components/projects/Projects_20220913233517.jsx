@@ -1,10 +1,17 @@
 import '../../components/projects/Projects.css'
 
+import  r1 from '../../assets/img/jera.png';
+// import { r2 } from '../../assets/img/runas.png'
+// import { r3 } from '../../assets/img/sowelu.png'
+
+import React from 'react'
+
 function Projects() {   
   return (
     <section>
         <div className='row'>
           <div>
+            <img className='ion-icon' src= { r1 } alt='runa' width={400} height={400}/>
             <ion-icon name="hand-left-outline"></ion-icon>
             <ion-icon name="logo-npm"></ion-icon>
             <ion-icon name="laptop-outline"></ion-icon>

@@ -31,7 +31,7 @@ ion-icon {
 ion-icon:hover{
     transition: 0s;
     color: whitesmoke;
-    text-shadow:  0 0 150px whitesmoke;
+    text-shadow:  0 0 120px whitesmoke;
 }
 section .row div {
     animation: animate1 80s linear infinite;

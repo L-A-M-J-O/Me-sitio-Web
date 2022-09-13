@@ -13,12 +13,12 @@ section {
 }
 section .row{
     position: relative;
-    top: -120%;
+    top: -50%;
     width: 100%;
     display: flex;
     padding: 10px 0;
     white-space: nowrap;
-    font-size: 30px;
+    font-size: 24px;
     transform: rotate(-50deg);
 }
 ion-icon {
@@ -30,8 +30,8 @@ ion-icon {
 }
 ion-icon:hover{
     transition: 0s;
-    color: whitesmoke;
-    text-shadow:  0 0 150px whitesmoke;
+    color: yellow;
+    text-shadow:  0 0 120px yellow;
 }
 section .row div {
     animation: animate1 80s linear infinite;

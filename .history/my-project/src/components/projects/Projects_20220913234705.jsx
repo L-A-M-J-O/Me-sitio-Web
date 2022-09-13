@@ -1,5 +1,8 @@
 import '../../components/projects/Projects.css'
 
+import { Link } from 'react-router-dom';
+
+
 function Projects() {   
   return (
     <section>
@@ -8,7 +11,7 @@ function Projects() {
             <ion-icon name="hand-left-outline"></ion-icon>
             <ion-icon name="logo-npm"></ion-icon>
             <ion-icon name="laptop-outline"></ion-icon>
-            <ion-icon name="logo-linkedin"></ion-icon>
+            <Link to='/'><ion-icon name="logo-linkedin"></ion-icon></Link>
             <ion-icon name="school-outline"></ion-icon>
             <ion-icon name="wifi-outline"></ion-icon>
             <ion-icon name="logo-android"></ion-icon>
