@@ -1,0 +1,11 @@
+section {
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #111;
+}
+.text {
+    position: relative;
+    transform: skewY(345deg) translateY(-200px);
+}
