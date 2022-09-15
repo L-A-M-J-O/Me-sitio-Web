@@ -23,12 +23,12 @@ section .row-name{
     transform: rotate(-90deg);
 }
 section .row-name div {
-    animation: animate1 50s linear infinite;
-    animation-delay: -10s;
+    animation: animate1 35s linear infinite;
+    animation-delay: -80s;
 }
 section .row-name div:nth-child(2){
     animation: animate2 80s linear infinite;
-    animation-delay: -20s;
+    animation-delay: -40s;
 }
 @keyframes animate1 {
     0%{
@@ -50,15 +50,15 @@ section .row-name div:nth-child(2){
 h1 span {
     color:#EEF1FF;
     text-transform: uppercase;
-    -webkit-text-stroke: 1px #F5EAEA;
+    -webkit-text-stroke: 1px #5B5656;
 }
 
 h1 {
     cursor:none;
     font-variation-settings: "wdth" 136,"wght" 500,"CNTR" 0;    
     font-size: 144px;
-    font-family: AntarcticaVAR-Regular; 
-    font-weight: 790;
+    font-family: AntarcticaVAR-Regular;
+    font-weight: 800;
     font-style: inherit;
     line-height: 0.9em;
     letter-spacing: -10px;   

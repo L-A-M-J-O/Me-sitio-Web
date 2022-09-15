@@ -25,19 +25,19 @@ function Projects() {
                   <h3 className='h2-tittle'>Alan Naranjo<br/><span className='m-hero-title'>Developer Front-end</span></h3>
                   <div className='m-skills'>
                     <div className='row m-skills-r justify-content-center'>
-                      <div className='col-3'>
+                      <div className='col'>
                         <h4>HTML5<br/><span>80%</span></h4>
                       </div>
-                      <div className='col-4'>
+                      <div className='col'>
                         <h4>JavaScript<br/><span>60%</span></h4>
                       </div>
-                      <div className='col-3'>
+                      <div className='col'>
                         <h4>CSS3<br/><span>95%</span></h4>
                       </div>
-                      <div className='col-4'>
+                      <div className='col-6'>
                         <h4>React JS<br/><span>70%</span></h4>
                       </div>
-                      <div className='col-3'>
+                      <div className='col'>
                         <h4>Java<br/><span>50%</span></h4>
                       </div>
                     </div>
@@ -54,7 +54,7 @@ function Projects() {
           <div className='col-12 text-end'>
             <h2><span>ME</span></h2>
             <h2><span>JOB</span></h2>
-            <Link to='about'><h2><span>ABOUT</span></h2></Link>
+            <h2><span>ABOUT</span></h2>
             <h2><span>STUDIES</span></h2>
             <h2><span>PROJECT</span></h2>
           </div>

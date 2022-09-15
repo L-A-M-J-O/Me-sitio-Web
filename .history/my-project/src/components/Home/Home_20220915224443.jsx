@@ -28,16 +28,16 @@ function Projects() {
                       <div className='col-3'>
                         <h4>HTML5<br/><span>80%</span></h4>
                       </div>
-                      <div className='col-4'>
+                      <div className='col-6'>
                         <h4>JavaScript<br/><span>60%</span></h4>
                       </div>
-                      <div className='col-3'>
+                      <div className='col-6'>
                         <h4>CSS3<br/><span>95%</span></h4>
                       </div>
-                      <div className='col-4'>
+                      <div className='col-6'>
                         <h4>React JS<br/><span>70%</span></h4>
                       </div>
-                      <div className='col-3'>
+                      <div className='col'>
                         <h4>Java<br/><span>50%</span></h4>
                       </div>
                     </div>

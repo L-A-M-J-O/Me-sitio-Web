@@ -1,0 +1,31 @@
+
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.Main_line__vX9br {
+    flex: 1 1;
+    height: 6px;
+    width: 100%;
+    background-color: #fff;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+.col h3 {
+    color: #EEF1FF;
+    font-variation-settings: "wdth" 136,"wght" 500,"CNTR" 0;    
+    font-size: 120px;
+    font-style: inherit;
+    line-height: 1;
+    letter-spacing: -2px;
+    transition: 0.1 s;
+    font-weight: 600;
+    letter-spacing: -.08em;
+    text-transform: uppercase;
+}
