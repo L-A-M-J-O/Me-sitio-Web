@@ -14,7 +14,7 @@ function About() {
       <div className='container-fluid p-0 m-0'>
         <div className='row justify-content-center me-3 m-hero-about'>
           <div className='col mb-5'>
-            <h3><span>my history</span></h3>
+            <h3><span>my programming history</span></h3>
           </div>
         </div>
         <div className="Main_line__vX9br"></div>
