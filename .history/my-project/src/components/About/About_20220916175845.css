@@ -106,33 +106,33 @@ section {
     transform: rotate(60deg);
 }
 .tittle-history {
-    text-align: end;
+    text-align: start;
     cursor: default;
     font-weight: bold;
     font-size: 140px;
 }
 .card-history{
     display: flex;
-    top: 80px;
     left: 0%;
     position: relative;
-    width: 60px;
+    width: 70px;
+    height: 70px;
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
     transition: 0.5s;
 }
 .card-history:hover{
-    height: 220px;
-    width: 450px;
+    height: 450px;
 }
 .m-img-Runa{
     position: absolute;
-    left: 10%;
+    left: 50%;
     top: 10px;
     transform: translateX(-50%);
     width: 60px;
     height: 60px;
+    background:#fff;
     border-radius: 20px;
     box-shadow: 0 15px 50px rbga(0, 0, 0, 0.35);
     overflow: hidden;
@@ -150,31 +150,73 @@ section {
     height: 100%;
     object-fit: cover;
 }
-.card-history .content-me-history{
+.card .content-me-history{
     position: absolute;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-center;
+    align-items: flex-end;
     overflow: hidden;
-    text-align: center;
 }
-.card .content-me-history .details-h {
+.card .content-me-history .details- {
     padding: 17px;
     text-align: center;
     width: 100%;
     transition: 0.5s;
     transform: translateX(400px);
 }
-.card:hover .content-me-history .details-h{
+.card:hover .content-me-history .details{
     transform: translateX(0px);
 }
-.h4-name {
-    padding: 10px;
-    margin: 5px;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.card .content-me-history .details h3 {
+    font-family: AntarcticaVAR-Regular;
+    font-variation-settings: "wdth" 136,"wght" 500,"CNTR" 0;    
+    font-weight: 900;
+    font-style: inherit;
+    line-height: 1em;
 }
+.card .content-me .details h3 .m-hero-title {
+    font-family: AntarcticaVAR-Regular;
+    color: #181818;
+    font-size: 0.9em;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.card .content-me .details .m-skills{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    margin: 20px;
+}
+.card .content-me .details .m-skills h4{
+    text-align: start;
+    font-size: 1em;
+    color: #555;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+.card .content-me .details .m-skills h4 span{
+    font-size: 1em;
+    opacity: 0.5;
+}
+.card .content-me .details .actionBtn{
+    display: flex;
+    justify-content: center;
+    gap: 20px   ;
+}
+.card .content-me .details .actionBtn button{
+    font-family: AntarcticaVAR-Regular;
+    font-size: 1.3em;
+    width: 200px;
+    height: 35px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    background-color: #181818;
+    color: #EEF1FF;
+}
+
+
 

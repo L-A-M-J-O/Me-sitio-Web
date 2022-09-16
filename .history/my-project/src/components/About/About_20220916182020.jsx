@@ -12,7 +12,7 @@ function About() {
   return (
     <section id='about'>
       <div className='container-fluid p-0 m-0'>
-        <div className='row justify-content-center me-3 m-hero-about'>
+      <div className='row justify-content-center me-3 m-hero-about'>
           <div className='col mb-5'>
             <h3><span>HISTORY</span></h3>
           </div>
@@ -33,13 +33,18 @@ function About() {
                   <img src={ runa3 } alt='Runa' width={100} height={100}/>
                 </div>
                 <div className='content-me-history'>
-                  <div className='details-h'>
-                    <div className='row'>
-                      <div className='col-12'>
-                      <h4 className='h4-name'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo accusantium cumque, harum quam eum a omnis suscipit sed dolor rerum voluptatum, sint enim veniam iusto! Reiciendis, ad. Enim, error quibusdam.</h4>
-                      </div>
+                <div className='details mt-5'>
+                  <h3 className='h2-tittle'>Alan Naranjo<br/><span className='m-hero-title'>Developer Front-end</span></h3>
+                  <div className='m-skills'>
+                    <div className='row m-skills-r justify-content-center'>
+                      <div className='col-3'>
+                        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit odit officiis consequatur asperiores ullam. Ipsam officia sint sed consequatur at reprehenderit et est ipsa eveniet omnis voluptate, blanditiis esse nam.</h4>
                     </div>
                   </div>
+                  <div className='actionBtn'>
+                    <button>Message</button>
+                  </div>
+                </div>
                 </div>
               </div>
             </div>
@@ -47,11 +52,6 @@ function About() {
           </div>
         </div>
         <div className="Main_line__vX9br"></div>
-      </div>
-      <div className='row justify-content-end m-hero-finilly'>
-        <div className='col'>
-          <h3><span>thanks for reading it</span></h3>
-        </div>
       </div>
     </section>
   )

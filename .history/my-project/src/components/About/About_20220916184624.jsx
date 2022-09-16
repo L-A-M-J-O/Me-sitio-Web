@@ -48,7 +48,7 @@ function About() {
         </div>
         <div className="Main_line__vX9br"></div>
       </div>
-      <div className='row justify-content-end m-hero-finilly'>
+      <div className='row justify-content-center m-hero-finilly'>
         <div className='col'>
           <h3><span>thanks for reading it</span></h3>
         </div>

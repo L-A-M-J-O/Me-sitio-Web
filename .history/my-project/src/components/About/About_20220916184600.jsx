@@ -48,8 +48,8 @@ function About() {
         </div>
         <div className="Main_line__vX9br"></div>
       </div>
-      <div className='row justify-content-end m-hero-finilly'>
-        <div className='col'>
+      <div className=''row justify-content-center me-3 m-hero-about'>
+        <div className='col-5'>
           <h3><span>thanks for reading it</span></h3>
         </div>
       </div>

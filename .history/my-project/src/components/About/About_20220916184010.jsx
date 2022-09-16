@@ -12,7 +12,7 @@ function About() {
   return (
     <section id='about'>
       <div className='container-fluid p-0 m-0'>
-        <div className='row justify-content-center me-3 m-hero-about'>
+      <div className='row justify-content-center me-3 m-hero-about'>
           <div className='col mb-5'>
             <h3><span>HISTORY</span></h3>
           </div>
@@ -47,11 +47,6 @@ function About() {
           </div>
         </div>
         <div className="Main_line__vX9br"></div>
-      </div>
-      <div className='row justify-content-end m-hero-finilly'>
-        <div className='col'>
-          <h3><span>thanks for reading it</span></h3>
-        </div>
       </div>
     </section>
   )

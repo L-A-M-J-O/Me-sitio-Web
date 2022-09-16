@@ -156,9 +156,8 @@ section {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-center;
+    align-items: flex-end;
     overflow: hidden;
-    text-align: center;
 }
 .card .content-me-history .details-h {
     padding: 17px;
@@ -170,11 +169,11 @@ section {
 .card:hover .content-me-history .details-h{
     transform: translateX(0px);
 }
-.h4-name {
-    padding: 10px;
-    margin: 5px;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+.card-history .content-me-history .details-h h4-name {
+    font-family: AntarcticaVAR-Regular;
+    font-variation-settings: "wdth" 136,"wght" 500,"CNTR" 0;    
+    font-weight: 900;
+    font-style: inherit;
+    line-height: 1em;
+
 
