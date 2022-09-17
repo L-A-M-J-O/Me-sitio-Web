@@ -1,0 +1,9 @@
+.card-job {
+    width: 18rem;
+    background-color:whitesmoke;
+}
+.card-job:hover {
+    width: 20rem;
+    height: 400px;
+    background-color:whitesmoke;
+}

@@ -1,0 +1,12 @@
+.card-job {
+    width: 18rem;
+    background-color:whitesmoke;
+    transition: 0.5s;
+}
+.card-job:hover {
+    border: 1px solid #EEF1FF;
+    border-radius: 5px;
+    width: 50rem;
+    height: 400px;
+    background-color:whitesmoke;
+}
