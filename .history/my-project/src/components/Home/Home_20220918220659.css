@@ -13,10 +13,8 @@
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
 .cajon {
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-    background: #e0e0e0;
-    box-shadow:  20px 20px 60px #bebebe,
-                -20px -20px 60px #ffffff;
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
 }

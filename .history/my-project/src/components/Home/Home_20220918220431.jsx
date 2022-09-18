@@ -10,9 +10,7 @@ function Home() {
       <div className='container-fluid'>
         <div className='row justify-content-center'>
           <div className='col-4 m-hero'>
-            <div className='cajon'>
-              s
-            </div>
+            sss
           </div>
         </div>
       </div>
