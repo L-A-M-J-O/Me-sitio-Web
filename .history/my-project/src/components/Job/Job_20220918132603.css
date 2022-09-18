@@ -13,13 +13,12 @@ m-hero-job-row {
     border-radius: 5px;
 }
 .card-job-n{
-    height: 110px;
     width: 23rem;
     transition: 0.5s;   
     border-radius: 5px;
 }
 .card-job-n:hover {
-    width: 22rem;
+    width: 20rem;
     height: 37rem;
     border-radius: 5px;
     transition: 0.5s;

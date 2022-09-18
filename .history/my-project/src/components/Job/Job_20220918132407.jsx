@@ -10,10 +10,10 @@ function Job() {
         <div className='container-fluid m-hero-job p-0 m-0' id='job'>
             <div className='row d-flex justify-content-evenly mt-5'>
                 <div className='col-12 pt-2'>
-                    <div className='row c-hero-job align-items-center justify-content-center justify-content-md-around mt-5 mb-5 '>
+                    <div className='row c-hero-job align-items-center justify-content-center justify-content-md-around mt-5'>
                         <div className='col-7 col-sm-10 col-md-3 col-lg-3' >
                     <div className="card-job-n">
-                        <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQHVWeqmIAjzAw/company-logo_200_200/0/1522233689880?e=1671667200&v=beta&t=I82zr4uDmNkLJ45REj-4Bn5DQMo_R7Sx_7q2qQm7z0Y" className="img-fluid card-img-top img-job " alt="..."/>
+                        <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFTAVqPMHd9pw/company-logo_100_100/0/1627348873096?e=2147483647&v=beta&t=EyFvkNGinNPrlkfq-tS_6aECvM2HdFNXTAHgoTAkmco" className="img-fluid card-img-top img-job " alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">BackBone</h5>
                             <a href='https://es.backbone.digital/' className="card-text">BackBone Technology</a>
