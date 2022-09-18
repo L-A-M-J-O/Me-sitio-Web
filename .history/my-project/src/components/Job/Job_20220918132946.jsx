@@ -2,6 +2,7 @@ import React from 'react'
 
 import '../Job/Job.css'
 
+import { Link } from 'react-router-dom'
 
 function Job() {
   return (
