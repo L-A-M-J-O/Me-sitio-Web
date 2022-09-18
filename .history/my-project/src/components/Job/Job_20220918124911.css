@@ -12,22 +12,25 @@ m-hero-job-row {
     transition: 0.5s;   
     border-radius: 5px;
 }
+.card-job:hover {
+    width: 20rem;
+    height: 32rem;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: #eee;
+}
 .card-job-n{
-    width: 23rem;
+    width: 18rem;
+    background-color:whitesmoke;
     transition: 0.5s;   
     border-radius: 5px;
 }
 .card-job-n:hover {
     width: 20rem;
-    height: 37rem;
+    height: 32rem;
     border-radius: 5px;
     transition: 0.5s;
-    background-color: #EEF1FF;
-}
-@media screen and (max-width: 768px) {
-    .card-job-n:hover {
-        width: 16rem;
-    }
+    background-color: #eee;
 }
 .c-hero-job {
     width: 100%;
@@ -37,16 +40,6 @@ m-hero-job-row {
     width: 100%;
     object-fit: cover;
 }
-@media screen and (max-width: 768px) {
-    .img-job {
-        width: 210px;
-    }
-}
-@media screen and (max-width: 425px) {
-    .img-job {
-        width: 130px;
-    }
-}
 .img-job:hover{
     width: 100%;
     border-radius: 20px;
@@ -55,26 +48,10 @@ m-hero-job-row {
 .card-title{
     cursor:none;
     font-variation-settings: "wdth" 136,"wght" 500,"CNTR" 0;    
-    font-size: 60px;
+    font-size: 90px;
     font-family: AntarcticaVAR-Regular; 
-    font-weight: 900;
+    font-weight: 790;
     font-style: inherit;
     line-height: 0.9em;
-    letter-spacing: -5px;  
-    color: #181818;
+    letter-spacing: -10px;   
 }   
-.card-text {
-    font-size: 18px;
-    font-style: inherit;
-    line-height: 1em;
-    letter-spacing: -1px;  
-    color: #181818;
-}
-a {
-    color: #181818;
-    text-decoration:overline;
-}
-a:hover {
-    color: transparent;
-    text-decoration:overline;
-}

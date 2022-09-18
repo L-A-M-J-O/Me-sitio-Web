@@ -22,7 +22,7 @@ m-hero-job-row {
     height: 37rem;
     border-radius: 5px;
     transition: 0.5s;
-    background-color: #EEF1FF;
+    background-color: #eee;
 }
 @media screen and (max-width: 768px) {
     .card-job-n:hover {
@@ -75,6 +75,6 @@ a {
     text-decoration:overline;
 }
 a:hover {
-    color: transparent;
+    color:black;
     text-decoration:overline;
 }

@@ -75,6 +75,6 @@ a {
     text-decoration:overline;
 }
 a:hover {
-    color: transparent;
+    color:#eee;
     text-decoration:overline;
 }

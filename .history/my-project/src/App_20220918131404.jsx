@@ -13,13 +13,13 @@ function App() {
   return (
     <Router>
           <div className="App">
-              <Home/>
-              <Job/>
-              <Me/>
-              {/* <About/> */}
-              <Studies/>
-              <Project/>
-        </div>
+      <Home/>
+       <Job/>
+       <Me/>
+      {/* <About/> */}
+      <Studies/>
+      <Project/>
+    </div>
     </Router>
 
   );

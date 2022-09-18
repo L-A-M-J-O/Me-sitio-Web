@@ -12,16 +12,16 @@ import Me from './components/Me/Me';
 function App() {
   return (
     <Router>
-          <div className="App">
-              <Home/>
-              <Job/>
-              <Me/>
-              {/* <About/> */}
-              <Studies/>
-              <Project/>
-        </div>
+      
     </Router>
-
+    <div className="App">
+      <Home/>
+       <Job/>
+       <Me/>
+      {/* <About/> */}
+      <Studies/>
+      <Project/>
+    </div>
   );
 }
 

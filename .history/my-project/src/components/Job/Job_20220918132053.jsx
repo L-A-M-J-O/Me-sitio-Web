@@ -27,7 +27,7 @@ function Job() {
                         <div className="card-body">
                             <h5 className="card-title">No Country</h5>
                             <a href='https://www.nocountry.tech/' className="card-text">No Country.Tech</a>
-                            <p className="card-text">Front-End, Estuve realizando un proyecto de un icomerce en un grupo de 4 personas 2 front-end 1 back-end y UX-UI, Las habilidadades trabajo en equipo y comunicacion continua e  realizacion de versionamietos y programacion de eventos, Maquetacion de todo el desing mobile</p> 
+                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
                         </div>
                     </div>
                         </div>
