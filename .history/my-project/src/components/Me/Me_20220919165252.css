@@ -1,0 +1,13 @@
+.section-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #B4D4B4;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px;
+}
+.container-m-me {
+    
+}
