@@ -1,0 +1,10 @@
+.container-fluid {
+    background-color: #eeeeee;
+}
+.m {
+    width: 500px;
+    height: 600px;
+    border-radius: 33px;
+    background: #e0e0e0;
+    box-shadow: inset 9px 9px 18px #9b9b9b,
+                inset -9px -9px 18px #ffffff;
