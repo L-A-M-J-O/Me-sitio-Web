@@ -22,7 +22,7 @@
 }
 
 .content-me {
-    transform: translateX(350px);
+    transform: translateX(500px);
     max-width: 700px;
     box-shadow:  0 15px 30px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
@@ -35,22 +35,8 @@
     cursor: pointer;
 }
 .content-me:hover{
-    transform: translateX(650px);
-    max-width: 400px;
-}
-.content-me .recuadro-img {
-    border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow:  20px 20px 60px #bebebe,
-                 -20px -20px 60px #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.content-me .recuadro-img img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+    transform: translateX(600px);
+    max-width: 500px;
 }
 .content-me h2 {
     font-family: Osiris;

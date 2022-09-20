@@ -22,7 +22,7 @@
 }
 
 .content-me {
-    transform: translateX(350px);
+    transform: translateX(700px);
     max-width: 700px;
     box-shadow:  0 15px 30px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
@@ -30,27 +30,8 @@
     border: 1px solid rgba(255, 255, 255, 0.25);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-    padding: 30px;
-    transition: 0.5s;
-    cursor: pointer;
-}
-.content-me:hover{
-    transform: translateX(650px);
-    max-width: 400px;
-}
-.content-me .recuadro-img {
-    border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow:  20px 20px 60px #bebebe,
-                 -20px -20px 60px #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.content-me .recuadro-img img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+    padding: 40px;
+    padding-left: 110px;
 }
 .content-me h2 {
     font-family: Osiris;
