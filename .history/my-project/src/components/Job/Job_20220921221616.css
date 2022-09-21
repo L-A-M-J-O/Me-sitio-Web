@@ -1,0 +1,11 @@
+.card-job {
+    overflow: hidden;
+    height: 330px;
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+        background: rgba(255, 255, 255, .65);
+        background-clip: border-box;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(15px);
+} 
