@@ -7,9 +7,9 @@ import Me from './components/Me/Me'
 function App() {
   return (
     <div className='main'>
-      <Home/>
-      {/* <Job/> */}
-      <Me/>
+    <Home/>
+    {/* <Job/> */}
+    <Me/>
     </div>
 
 

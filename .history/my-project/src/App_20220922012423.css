@@ -1,0 +1,8 @@
+.main::-webkit-scrollbar {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+}
+.main::-webkit-scrollbar-thumb{
+    background-color: #1f1f1f;
+}

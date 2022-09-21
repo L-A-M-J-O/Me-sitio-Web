@@ -7,6 +7,7 @@ import Me from './components/Me/Me'
 function App() {
   return (
     <div className='main'>
+      <h2>Custom scroll</h2>
       <Home/>
       {/* <Job/> */}
       <Me/>
