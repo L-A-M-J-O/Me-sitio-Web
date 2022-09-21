@@ -25,7 +25,9 @@
   } 
   .card:hover {
     width: 100%;
-    transform: translateY(0) scale(1);
+  }
+  .card .view-information {
+    z-index: 1;
   }
   .card img {
     width: 130px;

@@ -21,8 +21,8 @@ function Me() {
                 <img src={ me } alt='Alan Naranjo' className='img-fluid'/>
               </div>
               <div className='col-8 p-0 m-0'>
-                <h3 className="card-title text-center fs-3 tittle-hover">Front End Developer</h3>
-                <p>It all started when I wondered how they can create a system in computers so that they work in such a way or how they create programs, so over time I was in research and to get started in this whole vast world I started with html5 later with time I continued researching and I came up with the term Front-end and I studied to be that profile and I keep improving</p>
+                <h3 className="card-title">Front End Developer</h3>
+                <p>Soy un desarrollador nato en el front-end me gusta los diseños y programacion en este mundo comence desde los 15 años</p>
                 <Link to='' className='media-icon'>
                     <FontAwesomeIcon  className='runa' icon={faArrowRight}/>
                 </Link>
@@ -30,7 +30,6 @@ function Me() {
             </div>
           </div>
         </div>
-        
         <div className='col-12 col-sm-12 col-md-12 col-lg-5 card-skills'>
           <div className='row'>
             <div className='col-12 col-md-6 col-lg-6'>

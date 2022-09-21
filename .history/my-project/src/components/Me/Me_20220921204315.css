@@ -23,10 +23,16 @@
         backdrop-filter: blur(15px);
 
   } 
-  .card:hover {
+  .card :hover {
     width: 100%;
     transform: translateY(0) scale(1);
   }
+  .card .view-information {
+    background-color: #4d4ae8;
+    transform: translateY(-95%) scale(0);
+    transition: 1s;
+  }
+
   .card img {
     width: 130px;
     height: 250px;

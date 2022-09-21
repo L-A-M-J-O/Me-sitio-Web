@@ -27,6 +27,11 @@
     width: 100%;
     transform: translateY(0) scale(1);
   }
+  .card .view-information {
+    background-color: #4d4ae8;
+    transform: translateY(0) scale(1);
+  }
+
   .card img {
     width: 130px;
     height: 250px;

@@ -73,10 +73,9 @@ function Home() {
                 <div>
                     <h2>Portfolio</h2>
                     <p><i>Dios Hijo de Odin</i></p>
-                    <p>Hello my name is alan I think it looks great up there haha I hope you are well I would love to introduce you I was born in Colombia and since I was 15 years old I have dedicated myself to programming. it all started...</p>
+                    <p>hello my name is alan I think it looks very good up there haha I hope you are very well I would love to introduce you I was born in Colombia and since I was 15 years old I have dedicated myself to programming I did not know where to start so with time</p>
                     <Link to='about' className='media-icon-arrow'>
                         <FontAwesomeIcon className='runa' icon={faArrowRight}/>
-                        <p>Read More</p>
                     </Link>
                 </div>
             </div>

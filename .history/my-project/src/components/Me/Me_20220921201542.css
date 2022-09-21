@@ -1,4 +1,11 @@
 
+@media screen and (max-width: 764px) {
+    .span-description {
+        
+    }
+}
+
+
 .container-fluid {
     padding: 4.5rem;    
     margin: 0;
@@ -25,11 +32,10 @@
   } 
   .card:hover {
     width: 100%;
-    transform: translateY(0) scale(1);
   }
   .card img {
-    width: 130px;
-    height: 250px;
+    width: 120px;
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
   }
