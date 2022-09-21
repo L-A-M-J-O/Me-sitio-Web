@@ -20,7 +20,7 @@ function Me() {
               <div className='col-4'>
                 <img src={ me } alt='Alan Naranjo' className='img-fluid'/>
               </div>
-              <div className='col-8 p-0 m-0'>
+              <div className='col-8  m-0'>
                 <h3 className="card-title text-center">Front End Developer  &#9989;</h3>
                 <p className='small text-muted span-description'>It all started when I wondered how they can create a system in computers so that they work in such a way or how they create programs, so over time I was in research and to get started in this whole vast world I started with html5 later with time I continued researching and I came up with the term Front-end and I studied to be that profile and I keep improving</p>
                 <div class="m-hero-container-me text-center">

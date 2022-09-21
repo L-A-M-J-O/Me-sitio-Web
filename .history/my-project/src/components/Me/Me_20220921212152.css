@@ -28,7 +28,7 @@
     height: auto;
     transition: 0.5s;
   }
-.m-hero-container-me .h1 {
+.m-hero-container-me h1 {
   margin-top: 40px;
     cursor: pointer;
     text-align: center;
@@ -40,12 +40,9 @@
 .m-hero-container-me h1:hover ~ .m-container {
     transform: translateY(0) scaleY(1);
 }
-.runa-me {
-  font-size: 20px;
-}
 
   .card img {
-    width: 180px;
+    width: 130px;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;

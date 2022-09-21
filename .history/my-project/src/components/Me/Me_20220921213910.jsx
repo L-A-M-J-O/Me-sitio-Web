@@ -14,10 +14,10 @@ function Me() {
     <>  
     <div className='container-fluid p-0' id='about'>
       <div className='row justify-content-around m-hero-me align-items-center m-0'>
-        <div className='col-12 col-sm-12 col-md-12 col-lg-4'>
+        <div className='col-12 col-sm-12 col-md-12 col-lg-5'>
           <div className="card">
             <div className='row justify-content-center'>
-              <div className='col-4'>
+              <div className='col-4 m-0'>
                 <img src={ me } alt='Alan Naranjo' className='img-fluid'/>
               </div>
               <div className='col-8 p-0 m-0'>
@@ -26,7 +26,7 @@ function Me() {
                 <div class="m-hero-container-me text-center">
                     <h1 className='small text-muted span-description'><FontAwesomeIcon className='runa-me' icon={faBolt}/></h1>
                   <div class="m-container small text-muted span-description">
-                  I have various knowledge that over time I have acquired and used in projects if you want to see them
+                    voluptatum nostrum! Eius recusandae animi ipsa, possimus, ullam vel, assumenda voluptatibus explicabo voluptas fugit dolores! Alias quasi nostrum sint, recusandae consequuntur doloremque est pariatur, mollitia voluptatibus veniam reiciendis! Quos alias repellendus consequatur praesentium ducimus, beatae obcaecati qui aliquam! Dolorum quasi ut totam, porro velit sequi amet saepe ducimus magnam quod temporibus alias natus quia eligendi sit maxime reiciendis incidunt? Sapiente dignissimos, dolor iste quae ullam facere.
                   </div>
                </div>
               </div>

@@ -6,7 +6,7 @@ import logoReact from '../../assets/img/logo192.png'
 import me from '../../assets/img/me1.jpg'
 
 import {Link } from 'react-scroll'
-import { faBolt} from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Me() {
@@ -14,25 +14,29 @@ function Me() {
     <>  
     <div className='container-fluid p-0' id='about'>
       <div className='row justify-content-around m-hero-me align-items-center m-0'>
-        <div className='col-12 col-sm-12 col-md-12 col-lg-4'>
+        <div className='col-12 col-sm-12 col-md-12 col-lg-5'>
           <div className="card">
             <div className='row justify-content-center'>
-              <div className='col-4'>
+              <div className='col-4 m-0'>
                 <img src={ me } alt='Alan Naranjo' className='img-fluid'/>
               </div>
               <div className='col-8 p-0 m-0'>
-                <h3 className="card-title text-center">Front End Developer  &#9989;</h3>
-                <p className='small text-muted span-description'>It all started when I wondered how they can create a system in computers so that they work in such a way or how they create programs, so over time I was in research and to get started in this whole vast world I started with html5 later with time I continued researching and I came up with the term Front-end and I studied to be that profile and I keep improving</p>
-                <div class="m-hero-container-me text-center">
-                    <h1 className='small text-muted span-description'><FontAwesomeIcon className='runa-me' icon={faBolt}/></h1>
-                  <div class="m-container small text-muted span-description">
-                  I have various knowledge that over time I have acquired and used in projects if you want to see them
+                <h3 className="card-title text-center fs-3 tittle-hover">Front End Developer</h3>
+                {/* <p>It all started when I wondered how they can create a system in computers so that they work in such a way or how they create programs, so over time I was in research and to get started in this whole vast world I started with html5 later with time I continued researching and I came up with the term Front-end and I studied to be that profile and I keep improving</p> */}
+                {/* <Link to='' className='media-icon'>
+                    <FontAwesomeIcon  className='runa' icon={faArrowRight}/>
+                </Link> */}
+
+                  <h1>Introduccion</h1>
+                  <div class="m-container">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit vel ab nobis voluptas voluptate. Tenetur atque cumque impedit velit quisquam veniam placeat! Fugit accusamus consectetur et possimus illo! Quia excepturi nesciunt deleniti, enim quasi voluptatum nostrum! Eius recusandae animi ipsa, possimus, ullam vel, assumenda voluptatibus explicabo voluptas fugit dolores! Alias quasi nostrum sint, recusandae consequuntur doloremque est pariatur, mollitia voluptatibus veniam reiciendis! Quos alias repellendus consequatur praesentium ducimus, beatae obcaecati qui aliquam! Dolorum quasi ut totam, porro velit sequi amet saepe ducimus magnam quod temporibus alias natus quia eligendi sit maxime reiciendis incidunt? Sapiente dignissimos, dolor iste quae ullam facere.
                   </div>
-               </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        
         <div className='col-12 col-sm-12 col-md-12 col-lg-5 card-skills'>
           <div className='row'>
             <div className='col-12 col-md-6 col-lg-6'>

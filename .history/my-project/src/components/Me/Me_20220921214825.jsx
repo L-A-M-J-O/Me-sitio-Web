@@ -17,7 +17,7 @@ function Me() {
         <div className='col-12 col-sm-12 col-md-12 col-lg-4'>
           <div className="card">
             <div className='row justify-content-center'>
-              <div className='col-4'>
+              <div className='col-4 m-0'>
                 <img src={ me } alt='Alan Naranjo' className='img-fluid'/>
               </div>
               <div className='col-8 p-0 m-0'>

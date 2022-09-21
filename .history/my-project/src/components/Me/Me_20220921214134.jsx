@@ -14,10 +14,10 @@ function Me() {
     <>  
     <div className='container-fluid p-0' id='about'>
       <div className='row justify-content-around m-hero-me align-items-center m-0'>
-        <div className='col-12 col-sm-12 col-md-12 col-lg-4'>
+        <div className='col-12 col-sm-12 col-md-12 col-lg-5'>
           <div className="card">
             <div className='row justify-content-center'>
-              <div className='col-4'>
+              <div className='col-4 m-0'>
                 <img src={ me } alt='Alan Naranjo' className='img-fluid'/>
               </div>
               <div className='col-8 p-0 m-0'>
@@ -26,7 +26,7 @@ function Me() {
                 <div class="m-hero-container-me text-center">
                     <h1 className='small text-muted span-description'><FontAwesomeIcon className='runa-me' icon={faBolt}/></h1>
                   <div class="m-container small text-muted span-description">
-                  I have various knowledge that over time I have acquired and used in projects if you want to see them
+                    Tengo varios conocimientos que con el tiempo he adquirido y utilizado en proyectos si quieres verlos
                   </div>
                </div>
               </div>
