@@ -7,10 +7,7 @@
     padding: 4.5rem;    
     margin: 0;
     height: 100vh;
-    background: 
-        url(../../assets/img/Oddame.jpg)
-    center no-repeat fixed;
-    background-size: cover;
+    background-color: #f1f1f1;
     font-family: 'Inter', sans-serif;
 }
 .m-hero-me {
@@ -51,6 +48,7 @@
 .runa-me {
   font-size: 20px;
 }
+
   .card img {
     width: 180px;
     height: 250px;

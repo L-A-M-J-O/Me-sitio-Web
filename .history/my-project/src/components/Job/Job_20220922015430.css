@@ -12,9 +12,6 @@
 .card-job:hover {
   transform: translateY(-50px);
 }
-.text-job {
-  color:#ffffff;
-}
 .box-job {
     width: 100px;
     height: 100px;

@@ -143,6 +143,7 @@ header h1 {
     transform: translateY(-50%);
 }   
 .glass {
+    cursor: pointer;
     position: absolute;
     width: 42%;
     height: 100%;
@@ -207,10 +208,6 @@ header h1 {
     color: #ccc;
 }
 section {
-    background: 
-    url(../../assets/img/Oddame.jpg)
-    center no-repeat fixed;
-    background-size: cover;
     padding: 2em;
     background-color: #f1f1f1;
     color: #1f1f1f;

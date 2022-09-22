@@ -6,7 +6,7 @@ function Job() {
   return (
     <div id='job'>
         <p className='text-job'>I managed to have the opportunity to work in a company and be able to join a work group and develop large projects</p>
-       <div className='row card-job-main align-items-center mt-5'>
+       <div className='row card-job-main align-items-center mt-4'>
         <div className='col-12 col-sm-12 col-md-4 col-lg-4 mb-2'>
           <div className="card-job">
             <div className='row logo-and-name align-items-center justify-content-center mb-3'>

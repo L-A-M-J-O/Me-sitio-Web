@@ -207,12 +207,14 @@ header h1 {
     color: #ccc;
 }
 section {
+    padding: 2em;
+    height: 100vh;
     background: 
-    url(../../assets/img/Oddame.jpg)
+        url(../../assets/img/Oddame.jpg)
     center no-repeat fixed;
     background-size: cover;
-    padding: 2em;
-    background-color: #f1f1f1;
+    position: relative;
+    overflow: hidden;
     color: #1f1f1f;
     font-size: 1.1em;
     line-height: 32px;

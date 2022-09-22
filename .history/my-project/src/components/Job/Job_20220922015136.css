@@ -10,10 +10,7 @@
         backdrop-filter: blur(15px);
 }
 .card-job:hover {
-  transform: translateY(-50px);
-}
-.text-job {
-  color:#ffffff;
+  transform: translateY(-200px);
 }
 .box-job {
     width: 100px;

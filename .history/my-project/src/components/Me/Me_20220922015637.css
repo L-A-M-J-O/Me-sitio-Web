@@ -11,6 +11,7 @@
         url(../../assets/img/Oddame.jpg)
     center no-repeat fixed;
     background-size: cover;
+    position: relative;
     font-family: 'Inter', sans-serif;
 }
 .m-hero-me {
