@@ -15,6 +15,7 @@ function App() {
       </section>
       <Me/>
       <Projects/>
+      <Studies/>
     </div>
 
 

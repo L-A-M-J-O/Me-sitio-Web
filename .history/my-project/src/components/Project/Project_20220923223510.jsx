@@ -18,7 +18,7 @@ import { EffectCube, Pagination } from "swiper";
 
 function Project() {
   return (
-    <div className='container-fluid m-hero-projects p-0 mt-5' id='projects'>
+    <div className='container-fluid p-0 mt-5' id='projects'>
     <Swiper
       effect={"cube"}
       grabCursor={true}
