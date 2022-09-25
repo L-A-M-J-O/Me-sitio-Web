@@ -128,7 +128,7 @@ nav .container .menu-btn {
 header {
     height: 100vh;
     background: 
-        url(../../assets/img/Banner.jpg)
+        url(../../assets/img/Oddame.jpg)
     center no-repeat fixed;
     background-size: cover;
     position: relative;
@@ -212,7 +212,7 @@ section {
     center no-repeat fixed; */
     background-size: cover;
     padding: 2em;
-    /* background: #D8D8D8; */
+    background-color: rgba(174, 221, 185, 0.4);
     backdrop-filter: blur(20px);
     color: #1f1f1f;
     font-size: 1.1em;

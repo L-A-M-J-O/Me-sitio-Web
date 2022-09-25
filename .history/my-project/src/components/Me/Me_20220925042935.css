@@ -84,7 +84,7 @@
     border-radius: 0.55rem;
   }
   .list-group-item{
-    transition: 0.6s    ;
+    transition: 1s    ;
     border: none;
     overflow: hidden;
   }
@@ -135,7 +135,7 @@
     border-radius: 10px;
     margin: 10px 0;
     cursor: pointer;
-    transition: 0.6s;
+    transition: 1s;
     overflow: hidden;
   }
   .m-skills-hero .list:hover{
@@ -170,7 +170,7 @@
     position: absolute;
     right: -50px;
     color: black;
-    transition: 0.6s;
+    transition: 1s;
     font-size: 1.2em;
   }
   .m-skills-hero .list .m-skills .rank small {
@@ -185,13 +185,13 @@
     font-size: 15px;
     line-height: 1,2em;
     font-weight: 600;
-    transition: 0.6s;
+    transition: 1s;
   }
   .m-skills-hero .list .m-skills p{
     font-size: 13px;
     margin: 0;
     line-height: 0,75em;
-    transition: 0.6s;
+    transition: 1s;
   }
   .m-skills-hero .list:hover .m-skills h4,
   .m-skills-hero .list:hover .m-skills p {

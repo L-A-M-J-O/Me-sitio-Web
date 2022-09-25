@@ -128,10 +128,10 @@ nav .container .menu-btn {
 header {
     height: 100vh;
     background: 
-        url(../../assets/img/Banner.jpg)
+        url(../../assets/img/Oddame.jpg)
     center no-repeat fixed;
     background-size: cover;
-    position: relative;
+    position: fixed;
     overflow: hidden;
 }
 header h1 {
