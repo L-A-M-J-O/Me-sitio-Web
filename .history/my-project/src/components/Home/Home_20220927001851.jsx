@@ -77,7 +77,7 @@ function Home() {
                     <p><i>Dios, Hijo de Odin</i></p>
                     <p>Hello my name is alan I think it looks great up there haha I hope you are well I would love to introduce you I was born in Colombia and since I was 15 years old I have dedicated myself to programming. it all started...</p>
                     <Link to='about' className='media-icon-arrow'>
-                        <button className='btn-runa'><FontAwesomeIcon className='runa' icon={faArrowRight}/> Read More</button>
+                        <button>Read More</button><FontAwesomeIcon className='runa' icon={faArrowRight}/>
                     </Link>
                 </div>
             </div>

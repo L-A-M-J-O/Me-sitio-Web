@@ -1,8 +1,44 @@
 
 
-@media screen and  (max-width: 900px){
-    nav ul li {
-        font-size: 12px !important; 
+ @media screen and  (max-width: 900px){
+    nav .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-content: space-around;
+
+    }
+    nav .menu {
+        flex-direction: column;
+        height: 0;
+        transition: 0.7s;
+    }
+    .nav-links li {
+        margin: 0;
+        padding: 0 10px;
+    }
+    .social-media li:nth-child(1){
+        margin-left: 0;
+    }
+    .social-media {
+        order: 0;
+    }
+    .nav-links {
+        order: 1;
+        padding-top: 1em;
+    }
+    nav .container .menu-btn {
+        display: inline-block !important;
+        font-size: 1.4em;
+        cursor: pointer;
+    }
+    nav .container .nav-toggle {
+        height: 15em;
+    }
+    .nav-background {
+        background: #fff;
     }
 } 
 @media screen and (max-width: 750px) {
@@ -54,14 +90,14 @@ nav{
     border-bottom: 1px solid rgba(41, 41, 41, 10);   
 }
 nav.fixed {
-    background-color: #fff;
+    background-color: black;
     transition: .3s ease-in-out;    
 }
 nav.fixed a{
-    color: #1f1f1f;
+    color: #fff;
 }
 nav.fixed ul{
-    color: #1f1f1f;
+    color: #fff;
 }
 nav .media-icon{
     text-decoration: none;
@@ -89,10 +125,6 @@ nav ul li {
     cursor: pointer;
     display: inline-block;
     margin: 0 1em;
-    transition: 0.5s;
-}
-nav ul li:hover {
-    font-size: 15px;
 }
 nav ul .media-icon{
     font-size: 0.8em;
@@ -132,8 +164,8 @@ header h1 {
     left: 0;
     background: rgba(255, 255, 255, 0,25);
     box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0,3);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0,18);
     display: flex;
     justify-content: center;
@@ -187,18 +219,7 @@ header h1 {
     text-decoration: none;
 }
 .glass .runa {
-    color:#fff;
-    padding: 0 5px 0 0;
-}
-.btn-runa {
-    color: #fff;
-    font-size: 13px;
-    width: 115px;
-    height: 24px;
-    border-radius: 5px;
-    background-color: #1f1f1f;
-    border: 0;
-
+    color: #1f1f1f;
 }
 section {
     /* background: 

@@ -7,10 +7,9 @@
         background-clip: border-box;
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(15px);
-    border: 1px solid rgba(41, 41, 41);
 }
 .card-job:hover {
-  transform: translateY(-10px);
+  transform: translateY(-50px);
 }
 .text-job {
   color: #1f1f1f;
@@ -20,6 +19,12 @@
 }
   .box-job{
     text-align: center;
+  }
+  .box-job img:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    background: transparent;
   }
   .name-company {
     cursor: pointer;

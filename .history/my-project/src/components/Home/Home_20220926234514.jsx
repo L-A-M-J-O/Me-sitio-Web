@@ -1,5 +1,3 @@
-import '../Home/Home.css'
-
 import { useState } from 'react'
 
 import runa from '../../assets/img/icon.png'
@@ -11,25 +9,14 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
+import '../Home/Home.css'
 
 function Home() {
 
-    const [fix, setFix] = useState(false)
-    
-    function setFixed (){
-        if(window.scrollY >= 10){
-            setFix(true)
-        }
-        else {
-            setFix(false)
-        }
-    }
-
-    window.addEventListener('scroll', setFixed)
   return ( 
     <>
-    <header id='home'>
-        <nav className={fix ? 'nav fixed': 'nav'}>
+    <header>
+        <nav>
             <div id='home' className='container'>
                 <div className='menu'>
                     <ul className='social-media'>
@@ -66,7 +53,7 @@ function Home() {
                 </div>
             </div>
         </nav>
-        <div className='glass' >
+        <div className='glass'>
             <h1 className='h-glass'>Alan</h1>
             <div>
                 <div>
@@ -77,7 +64,8 @@ function Home() {
                     <p><i>Dios, Hijo de Odin</i></p>
                     <p>Hello my name is alan I think it looks great up there haha I hope you are well I would love to introduce you I was born in Colombia and since I was 15 years old I have dedicated myself to programming. it all started...</p>
                     <Link to='about' className='media-icon-arrow'>
-                        <button className='btn-runa'><FontAwesomeIcon className='runa' icon={faArrowRight}/> Read More</button>
+                        <FontAwesomeIcon className='runa' icon={faArrowRight}/>
+                        <p>Read More</p>
                     </Link>
                 </div>
             </div>

@@ -41,6 +41,13 @@ function Job() {
         <div className='col-12 col-sm-12 col-md-4 col-lg-4 mb-2'>
           <div className="card-job">
             <div className='row logo-and-name align-items-center justify-content-center mb-3'>
+              <div className="col-5 col-sm-5 col-md-4 col-lg-4">
+                    <div className='block'>
+                      <div className='box-job'>
+                        <a href='https://www.nocountry.tech/'><img src='https://uploads-ssl.webflow.com/62cc216ce23f79c10bc88169/62d0486c8fb98db540881355_header.png' alt='Booststrap V5'/> </a>
+                      </div>  
+                    </div>
+              </div>
               <div className='col-5'>
                 <h4 className='name-company fs-5 mb-0'>No Country</h4>
               </div> 

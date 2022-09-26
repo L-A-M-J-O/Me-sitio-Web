@@ -11,8 +11,8 @@ function App() {
     <div className='main'>
       <Home/>
         <Job/>
-        {/* <Me/>
-        <Skills/> */}
+        <Me/>
+        <Skills/>
     </div>
   );
 }

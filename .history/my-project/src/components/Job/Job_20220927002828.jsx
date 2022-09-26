@@ -18,6 +18,13 @@ function Job() {
         <div className='col-10 col-sm-12 col-md-4 col-lg-4'>
           <div className="card-job">
             <div className='row logo-and-name align-items-center justify-content-center mb-3'>
+              <div className="col-5 col-sm-5 col-md-4 col-lg-4">
+                      <div className='block'>
+                        <div className='box-job'>
+                          <a href='https://es.backbone.digital/'><img src='https://media-exp1.licdn.com/dms/image/C4E0BAQHVWeqmIAjzAw/company-logo_200_200/0/1522233689880?e=2147483647&v=beta&t=sNf-YB9yxGLVqyLa_xykMX7PCG1eaWAJ9LH2kuqItHU' alt='Booststrap V5'/></a>
+                        </div>
+                  </div>
+              </div>
               <div className='col-6'>
                 <h4 className='name-company'>Backbone Latam</h4>
               </div>
@@ -41,6 +48,13 @@ function Job() {
         <div className='col-12 col-sm-12 col-md-4 col-lg-4 mb-2'>
           <div className="card-job">
             <div className='row logo-and-name align-items-center justify-content-center mb-3'>
+              <div className="col-5 col-sm-5 col-md-4 col-lg-4">
+                    <div className='block'>
+                      <div className='box-job'>
+                        <a href='https://www.nocountry.tech/'><img src='https://uploads-ssl.webflow.com/62cc216ce23f79c10bc88169/62d0486c8fb98db540881355_header.png' alt='Booststrap V5'/> </a>
+                      </div>  
+                    </div>
+              </div>
               <div className='col-5'>
                 <h4 className='name-company fs-5 mb-0'>No Country</h4>
               </div> 
