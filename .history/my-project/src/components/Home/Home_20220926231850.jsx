@@ -1,4 +1,4 @@
-
+import { useState} from 'react'
 
 import runa from '../../assets/img/icon.png'
 
@@ -13,6 +13,17 @@ import '../Home/Home.css'
 
 function Home() {
 
+    const [fix, setFix] = useState(false)
+
+    function setFixed (){
+        if(window.screenY >= 392) {
+            setFix(true)
+        }else{
+            setFix(false)
+        }
+    }
+
+    window.addEventListener('scroll', setFix)
   return ( 
     <>
     <header>

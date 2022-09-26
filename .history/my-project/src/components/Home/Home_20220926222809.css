@@ -5,9 +5,6 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-        align-content: space-around;
 
     }
     nav .menu {
@@ -20,7 +17,7 @@
     .nav-links li {
         display:inline-block;
         margin: 0.5em 0;
-        padding: 0 20px;
+        padding: 0 34px;
     }
     .social-media li:nth-child(1){
         margin-left: 0;
@@ -56,7 +53,7 @@
     }    
     .h-glass {
         right: 52% !important;
-        top: 22% !important;
+        top: 10%;
         color: #1f1f1f;
         background-attachment: initial;
         background-size:100% 130%;
@@ -79,7 +76,6 @@
         height: 700px !important;
     }
 }
-
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;

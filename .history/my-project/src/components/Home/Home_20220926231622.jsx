@@ -1,4 +1,4 @@
-
+import { useState} from 'react'
 
 import runa from '../../assets/img/icon.png'
 
@@ -12,6 +12,12 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import '../Home/Home.css'
 
 function Home() {
+
+    const [fix, setFix] = useState(false)
+
+
+
+
 
   return ( 
     <>

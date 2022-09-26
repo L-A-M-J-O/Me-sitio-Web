@@ -11,9 +11,12 @@ function App() {
     <div className='main'>
       <Home/>
         <Job/>
+        {/* <Me/>  */}
         <Me/>
         <Skills/>
     </div>
+
+
   );
 }
 

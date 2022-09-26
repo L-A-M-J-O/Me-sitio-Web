@@ -1,4 +1,4 @@
-
+import { useState} from 'react'
 
 import runa from '../../assets/img/icon.png'
 
@@ -8,14 +8,24 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 import '../Home/Home.css'
+import Job from '../Job/Job'
 
 function Home() {
+
+    const [state, setstate] = useState( null ) 
+
+    const navbar = document.querySelector("nav");
+    const menu = document.querySelector(".menu");
+    const menuBtn = document.querySelector(".menu-btn");
+
 
   return ( 
     <>
     <header>
+        <img src='https://player.vimeo.com/video/722451681?h=57431b46db&muted=1&controls=0&loop=0&background=1&quality=auto&app_id=122963' alt='video' width={100}/>
         <nav>
             <div id='home' className='container'>
                 <div className='menu'>
@@ -50,6 +60,9 @@ function Home() {
                             <Link to='job'>Job</Link>
                         </li>
                     </ul>
+                </div>
+                <div className='menu-btn'>
+                    <FontAwesomeIcon icon={faBars}/>
                 </div>
             </div>
         </nav>

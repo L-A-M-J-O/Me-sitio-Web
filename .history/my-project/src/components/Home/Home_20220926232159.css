@@ -80,6 +80,10 @@
     }
 }
 
+.nav.fixed {
+    background-color: white;
+    transition: .3s ease-in-out;
+}
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;

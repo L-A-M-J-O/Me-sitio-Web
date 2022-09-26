@@ -5,28 +5,25 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-        align-content: space-around;
 
     }
     nav .menu {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: flex-start;
         height: 0;
+        overflow: hidden;
         transition: 0.7s;
     }
     .nav-links li {
-        display:inline-block;
+        display: block;
         margin: 0.5em 0;
-        padding: 0 20px;
     }
     .social-media li:nth-child(1){
         margin-left: 0;
     }
     .social-media {
-        order: 0;
+        order: 2;
     }
     .nav-links {
         order: 1;
@@ -56,7 +53,7 @@
     }    
     .h-glass {
         right: 52% !important;
-        top: 22% !important;
+        top: 10%;
         color: #1f1f1f;
         background-attachment: initial;
         background-size:100% 130%;
@@ -79,7 +76,6 @@
         height: 700px !important;
     }
 }
-
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -88,7 +84,7 @@ nav{
     z-index: 99;
     position: relative;
     transition: 0.4s;
-    border-bottom: 1px solid rgba(41, 41, 41, 10);   
+    border-bottom: 1px solid rgb(41, 41, 41, 0.5);   
 }
 nav .media-icon{
     text-decoration: none;
@@ -97,6 +93,7 @@ nav .media-icon{
 
 nav .container{
     max-width: 1150px;
+    padding: 1em 2em;
     margin: 0 auto;
 }
 
@@ -133,11 +130,11 @@ nav .container .menu-btn {
 }
 
 header {
-    height: 85vh !important;
-    background-image: radial-gradient(circle at 50% -20.71%, #bae0e6 0, #bbe0e9 6.25%, #bcdfeb 12.5%, #bedfed 18.75%, #c0deef 25%, #c3ddf0 31.25%, #c6dcf1 37.5%, #c9dbf2 43.75%, #cddaf2 50%, #d1d9f2 56.25%, #d5d8f1 62.5%, #d9d7f0 68.75%, #ddd6ee 75%, #e1d5ed 81.25%, #e4d4ea 87.5%, #e8d3e8 93.75%, #ebd2e5 100%);
+    height: 75vh;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    background-size: cover;
     position: relative;
     overflow: hidden;
-    border-bottom: 1px solid rgba(41, 41, 41, 10);   
 }
 header h1 {
     position: absolute;
@@ -171,12 +168,12 @@ header h1 {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    top: 28%;
+    top: 20%;
     right: 0;
     animation: text1 0.8s ease-in forwards;
 }
 .h-regular {
-    color: #1f1f1f;
+    color: #fff;
     top: 40%;
     left: 42%;
     animation: text2 0.8s ease-in forwards;
@@ -192,25 +189,24 @@ header h1 {
     margin-top: 10%;
 }
 .glass > div div {
-    margin-top: 35% !important;
     margin: 0 1em;
 }
 .glass p {
-    color: #1f1f1f;
+    color: #fff;
     font-size: 0.9em;
     line-height: 27px;
     max-width: 27em;
 }
 
 .glass h2 {
-    color: #1f1f1f;
+    color: #fff;
 }
 .glass .media-icon {
-    color: #1f1f1f;
+    color: #fff;
     text-decoration: none;
 }
 .glass .runa {
-    color: #1f1f1f;
+    color: #ccc;
 }
 section {
     /* background: 
