@@ -22,7 +22,7 @@ function Job() {
                   <h4 className='name-company fs-5 mb-0'>No Country</h4>
                 </div> 
               </div>
-              <div className="card-body p-0">
+              <div className="card-body">
             <span className="small text-muted span-description">Team QA</span>
               <p className="card-text">My job in this position was, <br/>
               - Creation of project from scratch with organization and routing with react js
@@ -52,7 +52,7 @@ function Job() {
                 <h4 className='name-company fs-5 mb-0'>Backbone Latam</h4>
               </div>
             </div>    
-          <div className="card-body p-0">
+          <div className="card-body">
           <span className="small text-muted span-description">Team QA</span>
             <p className="card-text">My job in this position was, <br/>
               - Matrix creation

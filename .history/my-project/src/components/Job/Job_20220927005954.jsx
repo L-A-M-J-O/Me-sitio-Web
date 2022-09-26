@@ -1,6 +1,7 @@
 
 import '../Job/Job.css'
 
+import {Link} from 'react-scroll' 
 import company from '../../assets/img/company.png'
 
 function Job() {
@@ -22,7 +23,7 @@ function Job() {
                   <h4 className='name-company fs-5 mb-0'>No Country</h4>
                 </div> 
               </div>
-              <div className="card-body p-0">
+              <div className="card-body">
             <span className="small text-muted span-description">Team QA</span>
               <p className="card-text">My job in this position was, <br/>
               - Creation of project from scratch with organization and routing with react js
@@ -52,7 +53,7 @@ function Job() {
                 <h4 className='name-company fs-5 mb-0'>Backbone Latam</h4>
               </div>
             </div>    
-          <div className="card-body p-0">
+          <div className="card-body">
           <span className="small text-muted span-description">Team QA</span>
             <p className="card-text">My job in this position was, <br/>
               - Matrix creation
@@ -68,12 +69,12 @@ function Job() {
             </div>
               <div className='row justify-content-end'>
                 <div className='col-4'>
-                  <a href='https://es.backbone.digital/' className='media-icon-arrow'>
+                  <a href='.' className='media-icon-arrow'>
                     <button className='btn-job'><p>See company</p></button>        
                   </a>
                 </div>
               </div>
-            </div>  
+            </div>
           </div>
         </div>
       </div>

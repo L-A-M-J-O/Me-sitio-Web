@@ -40,7 +40,7 @@
     transition: 0.5s;
 }
 .btn-job:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
 }
 .btn-job p{
   text-decoration: wavy;

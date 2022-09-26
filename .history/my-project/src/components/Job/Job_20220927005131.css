@@ -32,7 +32,7 @@
     transition: 1s;
   }
 .btn-job {  
-    width: 110px;
+    width: 100px;
     height: 25px;
     border-radius: 2px;
     background-color: #1f1f1f;
@@ -40,12 +40,11 @@
     transition: 0.5s;
 }
 .btn-job:hover {
-  transform: translateY(-5px);
+  transform: translateY(-20px);
+  transform: translateY(20px);
 }
 .btn-job p{
-  text-decoration: wavy;
-  margin: 0;
-  padding: 0 0 10px 0;
+  padding: 0px 0 0 5px;
   color: #fff;
   font-size: 14px;
 }

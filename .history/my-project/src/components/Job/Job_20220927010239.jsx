@@ -46,13 +46,13 @@ function Job() {
           </div>
         </div>
       <div className='col-10 col-sm-12 col-md-4 col-lg-4'>
-          <div className="card-job">
+          <div className="card-job p-0">
             <div className='row logo-and-name align-items-center justify-content-between mb-3'>
               <div className='col'>
                 <h4 className='name-company fs-5 mb-0'>Backbone Latam</h4>
               </div>
             </div>    
-          <div className="card-body p-0">
+          <div className="card-body">
           <span className="small text-muted span-description">Team QA</span>
             <p className="card-text">My job in this position was, <br/>
               - Matrix creation

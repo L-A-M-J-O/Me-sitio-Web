@@ -140,10 +140,12 @@ header h1 {
     align-items: center;
 }
 .h-glass {
-    background: 
+    box-shadow: 0px 1px 1px 1px black;
+    background-color: #fff;
+    /* background: 
     url(../../assets/img/Oddame.jpg)
     center no-repeat fixed;
-    background-size: cover;
+    background-size: cover; */
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -198,6 +200,7 @@ header h1 {
     border-radius: 5px;
     background-color: #1f1f1f;
     border: 0;
+
 }
 section {
     /* background: 
