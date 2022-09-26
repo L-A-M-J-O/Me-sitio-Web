@@ -17,7 +17,7 @@ function Home() {
     const [fix, setFix] = useState(false)
     
     function setFixed (){
-        if(window.scrollY >= 30){
+        if(window.scrollY >= 40){
             setFix(true)
         }
         else {
