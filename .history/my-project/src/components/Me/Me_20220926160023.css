@@ -18,13 +18,14 @@
         background-clip: border-box;  
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(15px);
+  transition: 0.6s;
   } 
   .card:hover {
     width: 100%;
     height: auto;
     transition: 0.6s;
   }
-.m-hero-container-me .h1 {
+/* .m-hero-container-me .h1 {
   margin-top: 40px;
     cursor: pointer;
     text-align: center;
@@ -40,8 +41,8 @@
   font-size: 20px;
 }
   .card img {
-    width: 140px;
-    height: 240px;
+    width: 180px;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
   }
@@ -50,3 +51,47 @@
     margin-bottom: .5rem;
     font-size: 1.2rem;
   }
+
+  p, a {
+    font-size: 1rem;
+  }
+  
+  a {
+    color: #4d4ae8;
+    text-decoration: none;
+  }
+  .card-skills {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(249,250,251,.65);
+    background-clip: border-box;
+    border: 1pxsolidrgba(255,255,255,.3);
+    border-radius: 0.55rem;
+  }
+  .list-group-item{
+    transition: 0.6s    ;
+    border: none;
+    overflow: hidden;
+  }
+  .list-group-item:hover{
+    transform: translateX(40px);
+    background-color: #c8d6e2;
+  }
+
+  .box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+  }
+  
+  .box img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow:  5px 5px 100px #b3b3b3,
+                 -5px -5px 100px #ffffff;
+  }  */

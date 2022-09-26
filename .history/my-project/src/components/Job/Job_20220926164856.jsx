@@ -1,6 +1,4 @@
-
-import '../Job/Job.css'
-
+import React from 'react'
 import company from '../../assets/img/company.png'
 
 function Job() {

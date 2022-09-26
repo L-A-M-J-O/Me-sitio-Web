@@ -2,7 +2,7 @@ import React from 'react'
 
 import '../Me/Me.css'
 
-
+import Skills from '../Skills/Skills'
 import me from '../../assets/img/me1.jpg'
 
 import { faBolt} from '@fortawesome/free-solid-svg-icons'
