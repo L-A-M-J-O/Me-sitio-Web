@@ -10,7 +10,7 @@ function App() {
     <div className='main'>
       <Home/>
         <Job/>
-        {/* <Me/>  */}
+        <Me/> 
       {/* <Projects/> */}
     </div>
 

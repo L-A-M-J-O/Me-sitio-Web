@@ -14,7 +14,6 @@ function Job() {
           <p className='text-job'>I managed to have the opportunity to work in a company and be able to join a work group and develop large projects</p>
         </div>
       </div>
-      
     </div>
   )
 }

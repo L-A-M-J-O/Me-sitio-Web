@@ -1,6 +1,6 @@
  @media screen and (max-width: 464px){
   .span-description{
-  font-size: 1em;
+  font-size: 800em;
   }
 } 
  .m-hero-me {
@@ -21,6 +21,7 @@
   transition: 0.6s;
   } 
   .card:hover {
+    transform: translateY(-30px);
     width: 100%;
     height: auto;
     transition: 0.6s;

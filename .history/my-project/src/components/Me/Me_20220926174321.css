@@ -1,6 +1,6 @@
  @media screen and (max-width: 464px){
   .span-description{
-  font-size: 1em;
+  font-size: 800em;
   }
 } 
  .m-hero-me {
@@ -18,13 +18,7 @@
         background-clip: border-box;  
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(15px);
-  transition: 0.6s;
   } 
-  .card:hover {
-    width: 100%;
-    height: auto;
-    transition: 0.6s;
-  }
 .m-hero-container-me .h1 {
   margin-top: 40px;
     cursor: pointer;

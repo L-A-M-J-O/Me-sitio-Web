@@ -188,7 +188,7 @@ function Me() {
         </div>
       </div>
     </>
-  ) 
+  )
 }
 
 export default Me
