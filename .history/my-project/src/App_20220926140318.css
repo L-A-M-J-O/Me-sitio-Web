@@ -1,0 +1,9 @@
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+.main{
+    background: 
+    url(./assets/img/Banner.jpg)
+center no-repeat fixed;
+}   

@@ -1,0 +1,49 @@
+
+.card-job {
+  cursor: pointer;
+    height: auto;
+    padding: 1rem;
+    border: 1px solid rgba(41, 41, 41, 1);
+    transition: 0.5s;
+}
+.card-job:hover {
+  transform: translateY(-10px);
+}
+.text-job {
+  color:#1f1f1f;
+}
+.m-hero-job{
+  height: 100vh;
+  border: 1px solid rgba(41, 41, 41, 1);
+}
+  .box-job{
+    text-align: center;
+    cursor: pointer;
+    width: 120px;
+    height: 25px;
+    background: transparent;
+    transition: 0.5s;
+  }
+  .box-job:hover {
+    color: #fff;
+    width: 125px;
+    height: 26px;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+  }
+  .box-job a{
+    color: #1f1f1f;
+  }
+  .box-job a:hover{
+    color: #fff;
+  }
+  .name-company {
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    color:  #1f1f1f;
+    transition: 1s;
+  }
+  .name-company:hover {
+    transform: rotate(-5deg);
+    transition: 1s;
+  }
