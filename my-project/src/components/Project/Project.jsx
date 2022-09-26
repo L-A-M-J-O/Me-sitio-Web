@@ -1,5 +1,7 @@
 import '../Project/Project.css'
 
+import landing1 from '../../assets/img/1.png';
+
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -32,48 +34,48 @@ function Project() {
     >
       <SwiperSlide>
         <div className='card-projects'>
-          <div className="m-hero-card">
-            <div className="card-body">
-              <h5 className="card-title">Ladings Page</h5>
-              <h6 className="card-subtitle mb-2 text-muted">HTML5, CSS3, BootstrapV5</h6>
-              <p className="card-text">Create a landing page of an ecommerce website with its complete responsiveness, your skills were with html, css and a css library, a javascript library was incorporated that is swiper</p>
-              <button><a href="https://ladign-3c53c.web.app/#" className="card-link">Go look</a></button>
+          <div class="m-hero-card">
+            <div class="card-body">
+              <h5 class="card-title">Ladings Page</h5>
+              <h6 class="card-subtitle mb-2 text-muted">HTML5, CSS3, BootstrapV5</h6>
+              <p class="card-text">Create a landing page of an ecommerce website with its complete responsiveness, your skills were with html, css and a css library, a javascript library was incorporated that is swiper</p>
+              <button><a href="https://ladign-3c53c.web.app/#" class="card-link">Go look</a></button>
             </div>
           </div>    
         </div>
       </SwiperSlide>
       <SwiperSlide>
       <div className='card-projects'>
-          <div className="m-hero-card">
-            <div className="card-body">
-              <h5 className="card-title">Ladings Page</h5>
-              <h6 className="card-subtitle mb-2 text-muted">HTML5, CSS3, BootstrapV5</h6>
-              <p className="card-text">Create a landing page of an ecommerce website with its complete responsiveness, your skills were with html, css and a css library, a javascript library was incorporated that is swiper</p>
-              <button><a href="https://ladign-3c53c.web.app/#" className="card-link">Go look</a></button>
+          <div class="m-hero-card">
+            <div class="card-body">
+              <h5 class="card-title">Ladings Page</h5>
+              <h6 class="card-subtitle mb-2 text-muted">HTML5, CSS3, BootstrapV5</h6>
+              <p class="card-text">Create a landing page of an ecommerce website with its complete responsiveness, your skills were with html, css and a css library, a javascript library was incorporated that is swiper</p>
+              <button><a href="https://ladign-3c53c.web.app/#" class="card-link">Go look</a></button>
             </div>
           </div>    
         </div>
       </SwiperSlide>
       <SwiperSlide>
       <div className='card-projects'>
-          <div className="m-hero-card">
-            <div className="card-body">
-              <h5 className="card-title">Ladings Page</h5>
-              <h6 className="card-subtitle mb-2 text-muted">HTML5, CSS3, BootstrapV5</h6>
-              <p className="card-text">Create a landing page of an ecommerce website with its complete responsiveness, your skills were with html, css and a css library, a javascript library was incorporated that is swiper</p>
-              <button><a href="https://ladign-3c53c.web.app/#" className="card-link">Go look</a></button>
+          <div class="m-hero-card">
+            <div class="card-body">
+              <h5 class="card-title">Ladings Page</h5>
+              <h6 class="card-subtitle mb-2 text-muted">HTML5, CSS3, BootstrapV5</h6>
+              <p class="card-text">Create a landing page of an ecommerce website with its complete responsiveness, your skills were with html, css and a css library, a javascript library was incorporated that is swiper</p>
+              <button><a href="https://ladign-3c53c.web.app/#" class="card-link">Go look</a></button>
             </div>
           </div>    
         </div>
       </SwiperSlide>
       <SwiperSlide>
       <div className='card-projects'>
-          <div className="m-hero-card">
-            <div className="card-body">
-              <h5 className="card-title">Ladings Page</h5>
-              <h6 className="card-subtitle mb-2 text-muted">HTML5, CSS3, BootstrapV5</h6>
-              <p className="card-text">Create a landing page of an ecommerce website with its complete responsiveness, your skills were with html, css and a css library, a javascript library was incorporated that is swiper</p>
-              <button><a href="https://ladign-3c53c.web.app/#" className="card-link">Go look</a></button>
+          <div class="m-hero-card">
+            <div class="card-body">
+              <h5 class="card-title">Ladings Page</h5>
+              <h6 class="card-subtitle mb-2 text-muted">HTML5, CSS3, BootstrapV5</h6>
+              <p class="card-text">Create a landing page of an ecommerce website with its complete responsiveness, your skills were with html, css and a css library, a javascript library was incorporated that is swiper</p>
+              <button><a href="https://ladign-3c53c.web.app/#" class="card-link">Go look</a></button>
             </div>
           </div>    
         </div>

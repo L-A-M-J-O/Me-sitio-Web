@@ -2,8 +2,7 @@ import React from 'react'
 
 import '../Me/Me.css'
 
-import git from '../../assets/img/git.png'
-import logoReact from '../../assets/img/logo192.png'
+
 import me from '../../assets/img/me1.jpg'
 
 import { faBolt} from '@fortawesome/free-solid-svg-icons'
@@ -11,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Me() {
   return (
-    <>  
+    <>
       <div className='container-me container-fluid p-0' id='about'>
         <div className='row justify-content-center justify-content-sm-center justify-content-md-around justify-content-lg-around m-hero-me align-items-center m-0'>
           <div className='col-12 col-sm-12 col-md-5 col-lg-5 mb-4'>
@@ -29,9 +28,8 @@ function Me() {
                     I have various knowledge that over time I have acquired and used in projects if you want to see them
                     </div>
                 </div>
-                </div>
               </div>
-            </div>
+            
     
           {/* <div className='col-12 col-sm-12 col-md-5 col-lg-5'>
             <div className='m-skills-hero'>
@@ -184,9 +182,11 @@ function Me() {
               </div>
             </div>
           </div>   */}
+            </div>
           </div>
         </div>
       </div>
+    </div>
     </>
   ) 
 }

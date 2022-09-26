@@ -1,41 +1,48 @@
-
 .card-job {
-  cursor: pointer;
     height: auto;
-    padding: 1rem;
-    border: 1px solid rgba(41, 41, 41, 1);
-    transition: 0.5s;
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: 1s;
+        background: rgba(255, 255, 255, .65);
+        background-clip: border-box;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(15px);
 }
 .card-job:hover {
-  transform: translateY(-10px);
+  transform: translateY(-50px);
 }
 .text-job {
-  color:#1f1f1f;
+  color:#ffffff;
 }
+<<<<<<< HEAD
 .m-hero-job{
-  height: 56vh;
-  border-bottom: 1px solid rgba(41, 41, 41, 0.448);
+  height: 100vh;
 }
   .box-job{
     text-align: center;
+=======
+.box-job {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+  }
+  
+  .box-job img {
+>>>>>>> parent of c0c3d25 (Job modificado)
     cursor: pointer;
-    width: 120px;
-    height: 25px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     background: transparent;
+    box-shadow:  5px 5px 100px #e0e0e0,
+                 -5px -5px 100px #ffffff;
     transition: 0.5s;
   }
-  .box-job:hover {
-    color: #fff;
-    width: 125px;
-    height: 26px;
-    background-color: #1f1f1f;
-    border-radius: 5px;
-  }
-  .box-job a{
-    color: #1f1f1f;
-  }
-  .box-job a:hover{
-    color: #fff;
+  .box-job img:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    background: transparent;
   }
   .name-company {
     cursor: pointer;
