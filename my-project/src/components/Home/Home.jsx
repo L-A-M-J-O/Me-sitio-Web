@@ -1,6 +1,6 @@
 import { useState} from 'react'
 
-import runa from '../../assets/img/icon.png';
+import runa from '../../assets/img/runawhite.png'
 
 import { Link } from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,6 +11,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 import '../Home/Home.css'
+import Job from '../Job/Job'
 
 function Home() {
 

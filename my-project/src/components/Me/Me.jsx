@@ -11,8 +11,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Me() {
   return (
     <>  
+<<<<<<< HEAD
     <div className='container-fluid' id='about'>
       <div className='row me-0 justify-content-center justify-content-sm-center justify-content-md-around justify-content-lg-around m-hero-me align-items-center m-0 mt-4'>
+=======
+    <div className='container-fluid p-0' id='about'>
+      <div className='row justify-content-center justify-content-sm-center justify-content-md-around justify-content-lg-around m-hero-me align-items-center m-0'>
+>>>>>>> parent of c0c3d25 (Job modificado)
         <div className='col-12 col-sm-12 col-md-5 col-lg-5 mb-4'>
           <div className="card">
             <div className='row justify-content-center'>
