@@ -4,6 +4,9 @@ import '../Me/Me.css';
 
 import me from '../../assets/img/me1.jpg'
 
+import { faBolt} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 function Me() {
   return (
     <div id='about'>
@@ -17,7 +20,7 @@ function Me() {
                     <div className="card-body text-center">
                       <h5 className="card-title">Front End Engineer &#x2614;</h5>
                       <h6 className="card-subtitle mb-2 text-muted">Alan Mateo Naranjo Alvarado</h6>
-                      <p className='text-start text-md-center text-lg-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eveniet porro unde incidunt nemo suscipit, non est accusantium magni possimus voluptatibus a praesentium fugiat sed alias debitis ratione voluptas mollitia facilis dolore repellendus? Illum fugiat temporibus quidem laborum voluptas modi voluptatum. Vitae ea corporis quisquam nobis blanditiis, dolore perferendis maxime?</p>
+                      <p className='text-start text-md-center text-lg-start'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eveniet porro unde incidunt nemo suscipit, non est accusantium magni possimus voluptatibus a praesentium fugiat sed alias debitis ratione voluptas mollitia facilis dolore repellendus? Illum fugiat temporibus quidem laborum voluptas modi voluptatum. Vitae ea corporis quisquam nobis blanditiis, dolore perferendis maxime?</p>
                     </div>
                   </div>
                 </div>

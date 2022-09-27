@@ -36,9 +36,9 @@ function Skills() {
                   <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png' alt='CSS3'/>
                 </div>
               </div>
-                {/* <div className='col-1 m-0 p-0 align-self-center'>
+                <div className='col-1 m-0 p-0 align-self-center'>
                   <span>#2</span>
-                </div> */}
+                </div>
               </div>
               <div className='row'>
                 <div className='col-12'>
@@ -103,15 +103,16 @@ function Skills() {
             </div>
             <div className='card-skills col-8 col-sm-8 col-md-4 col-lg-4'>
               <div className='row'>
-              <div className='col-2 m-0 p-2'>
-                <div className='m-img'>
-                  <img src={git} alt='Git'/>
-                </div>
-              </div>
+              
                 <div className='col-1 m-0 p-0 align-self-center'>
                   <span>#6</span>
                 </div>
                 <div className='row'>
+                <div className='col-2 m-0 p-2'>
+                <div className='m-img'>
+                  <img src={git} alt='Git'/>
+                </div>
+              </div>
                 <div className='col-12'>
                   <h4 className='text-muted span-description'>Git</h4>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et expedita nemo illum minus quidem vero!</p>

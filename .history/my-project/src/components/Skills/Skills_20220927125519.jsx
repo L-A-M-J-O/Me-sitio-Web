@@ -36,9 +36,9 @@ function Skills() {
                   <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png' alt='CSS3'/>
                 </div>
               </div>
-                {/* <div className='col-1 m-0 p-0 align-self-center'>
+                <div className='col-1 m-0 p-0 align-self-center'>
                   <span>#2</span>
-                </div> */}
+                </div>
               </div>
               <div className='row'>
                 <div className='col-12'>
