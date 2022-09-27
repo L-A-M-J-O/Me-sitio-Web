@@ -1,5 +1,6 @@
 import '../Home/Home.css'
 
+
 import runa from '../../assets/img/icon.png'
 
 import { Link } from 'react-scroll'
