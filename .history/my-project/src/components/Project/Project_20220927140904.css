@@ -14,23 +14,14 @@
       backdrop-filter: blur(15px);
   border: 1px solid rgba(41, 41, 41);
 }
-.btn-project {  
-  width: 130px;
-  height: 30px;
+..btn-runa {
+  color: #fff;
+  font-size: 13px;
+  width: 115px;
+  height: 24px;
   border-radius: 5px;
   background-color: #1f1f1f;
   border: 0;
-  transition: 0.5s;
-}
-.btn-project:hover {
-transform: translateX(-5px);
-}
-.btn-project p{
-text-decoration: wavy;
-margin: 0;
-padding: 0 0 10px 0;
-color: #fff;
-font-size: 16px;
 }
 .box-pro{
   top: 20px;
@@ -40,9 +31,6 @@ font-size: 16px;
 .swiper {
   width: 100%;
   height: 100%;
-}
-.swiper{
-  height: 60vh;
 }
 
 .swiper-slide {

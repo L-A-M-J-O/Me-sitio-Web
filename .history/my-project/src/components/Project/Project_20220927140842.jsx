@@ -37,7 +37,7 @@ export default function App() {
                   <h6 className="card-subtitle mb-2 text-muted">Html5, Css3, Bootstrap V5, JavaScript</h6>
                   <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <a href='https://es.backbone.digital/' className='media-icon-arrow'>
-                    <button className='btn-project'><p>Go to see</p></button>        
+                    <button className='btn-job'><p>See company</p></button>        
                   </a>
                 </div>
               </div>
