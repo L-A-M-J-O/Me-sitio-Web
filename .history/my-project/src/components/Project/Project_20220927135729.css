@@ -51,7 +51,10 @@
   object-fit: cover;
 }
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-  bottom: unset !important;
+  bottom: none;
+  left: 0 !important;
+  width: 0 !important;
+  background-color: red;
 }
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
   top: 20px;

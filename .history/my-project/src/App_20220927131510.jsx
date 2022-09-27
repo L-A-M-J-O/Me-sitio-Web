@@ -9,11 +9,11 @@ import Projects from './components/Project/Project';
 function App() {
   return (
     <div className='main'>
-      <Home/>
-      <Projects/>
+      {/* <Home/>
       <Job/>
       <Me/>
-      <Skills/>
+      <Skills/> */}
+      <Projects/>
     </div>
   );
 }

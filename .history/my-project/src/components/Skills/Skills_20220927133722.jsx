@@ -8,7 +8,7 @@ import react from '../../assets/img/logo192.png';
 function Skills() {
   return (
     <div className='container-fluid mt-5'>
-        <div className='row box-main justify-content-center'>
+        <div className='row box-main justify-content-center mb-4'>
           <div className='col-12 col-sm-12 col-md-7 col-lg-7  '>
            <div className='row gap-3 justify-content-center'>
             <div className='card-skills col-8 col-sm-8 col-md-4 col-lg-4'>

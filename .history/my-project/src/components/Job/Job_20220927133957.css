@@ -3,6 +3,9 @@
     height: 40vh !important;
   }
 }
+.m-box-job{
+  border-bottom: 1px solid rgba(41, 41, 41, 0.2);     
+}
 .card-job {
     height: auto;
     padding: 2rem;

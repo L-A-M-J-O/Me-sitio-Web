@@ -51,12 +51,6 @@
   object-fit: cover;
 }
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-  bottom: unset !important;
-}
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
-  top: 20px;
-  color: #1f1f1f;
-}
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
-  color: #1f1f1f;
+  bottom: 0 !important;
+  width: 0 !important;
 }

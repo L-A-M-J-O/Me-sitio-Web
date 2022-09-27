@@ -10,10 +10,10 @@ function App() {
   return (
     <div className='main'>
       <Home/>
-      <Projects/>
       <Job/>
       <Me/>
       <Skills/>
+      <Projects/>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import company from '../../assets/img/company.png'
 function Job() {
   return (
     <div id='job'>
-      <div className='m-box-job row me-0 justify-content-center justify-content-md-end justify-content-lg-end mt-5 mb-4'>
+      <div className='row me-0 justify-content-center justify-content-md-end justify-content-lg-end mt-5 mb-4'>
         <div className='col-1 text-end p-0 pb-4'>
           <img src={company} alt='frase de compañia' width={18}/>
         </div>

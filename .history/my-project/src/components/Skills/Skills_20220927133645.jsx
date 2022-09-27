@@ -229,7 +229,7 @@ function Skills() {
             </div>
            </div>
           </div>
-          <div className='col-10 col-sm-10 col-md-4 col-md-4 align-self-center mt-5 mt-md-0 mt-lg-0 '>
+          <div className='col-10 col-sm-10 col-md-4 col-md-4 align-self-center mt-5 mt-md-0 mt-lg-0'>
             <div className='row justify-content-center'>
               <div className='col-10 p-0'>
                 <h5 className='tittle-skills'>skills and knowledge</h5>

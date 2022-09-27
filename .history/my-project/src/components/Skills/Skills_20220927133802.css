@@ -35,7 +35,7 @@
 }
 .box-main {
     height: 100vh;
-
+    border-bottom: 1px solid rgba(41, 41, 41, 10);    
 }
 span {
     padding: 10px;
