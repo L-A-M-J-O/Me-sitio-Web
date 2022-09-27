@@ -213,7 +213,7 @@ function Skills() {
               <div className='row'>
               <div className='col-2 m-0 p-2'>
                 <div className='m-img'>
-                  <img src='https://juanmanuellopezduran.files.wordpress.com/2020/08/452-4529814_docker-and-kubernetes-logos-docker-logo-white-png.png' alt='Docker'/>
+                  <img src='https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png' alt='Docker'/>
                 </div>
               </div>
                 <div className='col-1 m-0 p-0 align-self-center'>

@@ -26,7 +26,7 @@ function Me() {
                 </div>
               </div>
             </div>
-            <div className='col-10 col-sm-10 col-md-4 col-lg-4'>
+            <div className='col-9 col-sm-10 col-md-4 col-lg-4'>
              <div className='box-img'>
                 <img src={me} alt='me'/>
               </div>

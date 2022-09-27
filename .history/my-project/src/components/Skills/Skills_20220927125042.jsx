@@ -141,29 +141,11 @@ function Skills() {
               <div className='row'>
               <div className='col-2 m-0 p-2'>
                 <div className='m-img'>
-                  <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAMAAAC4XpwXAAAAYFBMVEUxeMb///8bcMM4e8fl7Pa0yObI1uwhcsQqdcWJqtn09/tVi80ObMIWbsP6+/3A0erX4vKtw+SRsdxmlNDt8vlKhcsAaMAAZcCfueDe5/RumtN9o9dgkdCkveFDgcnP2+8P/sueAAADaElEQVRoge2b26KqIBCGESxGFE+pqWm+/1tu3K3lCsNUFL3hv+gm4msQhhlhkPMSizyfoCNEfC9iP1T0YqeAKRwCRwgohpT90WOCDyL/CpP4l37lR5n9J+DXFz3mh7N78binM3K85b2AMEFPj37mv8Kpg9g5lvcChqKzTBfGR8ijp9Gph/wTR95Hx7hXtc5kW1lZWVlZWVlZWVlZWVlZWVlZWVlZHSIQOgNLOQfyzIWeBOEAr/0TtBde9DHqmmLIvUsXuxkTytyqi9qawIp/AHl3XapOOuOg93o47XxXlfiLj0LAV3QwpeTvVA+CNJxsd1tq/Tr6cLrE6+xLO8N03H5tZ5YeRN/bGaUXl5l2Jun0MdfOqO2qdXYUnX/MuFA4mqpys2EJGqST0VqLPR/xIggwaR6XbB0dPVNPUvfWcTb6rhG9Qi2xWV0MDhiAF02yiv7y84OC9/nsjr7sO+XShGdo5FWB30un1t3wsERXHKIG8Tv9oThb536uCZ+nY/edHqj60N/qZ+lImnR3bZAeXZ7yO98mmaVTaeQj5dCbo3OJ7qS7XuSZn/NXie60e97dmp/zqUx34nx1KKlPh9wZ60KKnfjzKw53H3inE/72GLp6X3I9tMOVonk6ourQJiufm/kL6CiolHiHlXjj+C+hA5oKp7O6ME4X+AnrxfwjW8xfRBf4ybCWNRue/jJ6n8xMxpaNvvVL6SKmaScSuVAfv5guzCfJxOBr3ytbQReNeamc/VfdfXcVXYw/PGIFfkVQu4Xeh8TNJz/S3PVX0/sXCbU7orPj6P0LnPHy1xx6Lbpw/aO8VvMWqyYdFfLqK4+lIyr5vlbP3WrTCynkSQzRSa7uWM4uW0Mjz6NUGUPKtqeG6CKe7/LPQgQg0p6jmUMvyibCJOeycYAlhxdqsRfnMmFXA6U/r8WB4kYOdirNAGt5JhVey5oE93tB6nYcaGk+9vV5nEraG/wu9EQ3sd2DnpmLbRbQb+biunm6Pnw73Z3wxPvQvx8MsHbT0dj8Hkf9djKNU6axK+YgTpxwUKX8IXB6Szs2yiVCN6lVh2FkXb0MedNUG8DB/XnzyvYSCV3a9NHwQlkDB76hWiEQnp7/1+DxP0W9k+ukzq0R2/mN4gr19XEn1waeWxd5ck3oyfWwJ9cCO2fVQf8DUbMt95puUUUAAAAASUVORK5CYII=' alt='TypeScript'/>
-                </div>
-              </div>
-                <div className='col-1 m-0 p-0 align-self-center'>
-                  <span>#8</span>
-                </div>
-                <div className='row'>
-                <div className='col-12'>
-                  <h4 className='text-muted span-description'>TypeScript</h4>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et expedita nemo illum minus quidem vero!</p>
-                </div>
-              </div>
-              </div>
-            </div>
-            <div className='card-skills col-8 col-sm-8 col-md-4 col-lg-4'>
-              <div className='row'>
-              <div className='col-2 m-0 p-2'>
-                <div className='m-img'>
                   <img src={react} alt='React Js'/>
                 </div>
               </div>
                 <div className='col-1 m-0 p-0 align-self-center'>
-                  <span>#9</span>
+                  <span>#8</span>
                 </div>
                 <div className='row'>
                 <div className='col-12'>
@@ -181,7 +163,7 @@ function Skills() {
                 </div>
               </div>
                 <div className='col-1 m-0 p-0 align-self-center'>
-                  <span>#10</span>
+                  <span>#9</span>
                 </div>
                 <div className='row'>
                 <div className='col-12'>
@@ -199,7 +181,7 @@ function Skills() {
                 </div>
               </div>
                 <div className='col-1 m-0 p-0 align-self-center'>
-                  <span>#11</span>
+                  <span>#10</span>
                 </div>
                 <div className='row'>
                 <div className='col-12'>
@@ -213,15 +195,15 @@ function Skills() {
               <div className='row'>
               <div className='col-2 m-0 p-2'>
                 <div className='m-img'>
-                  <img src='https://juanmanuellopezduran.files.wordpress.com/2020/08/452-4529814_docker-and-kubernetes-logos-docker-logo-white-png.png' alt='Docker'/>
+                  <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAMAAAC4XpwXAAAAYFBMVEUxeMb///8bcMM4e8fl7Pa0yObI1uwhcsQqdcWJqtn09/tVi80ObMIWbsP6+/3A0erX4vKtw+SRsdxmlNDt8vlKhcsAaMAAZcCfueDe5/RumtN9o9dgkdCkveFDgcnP2+8P/sueAAADaElEQVRoge2b26KqIBCGESxGFE+pqWm+/1tu3K3lCsNUFL3hv+gm4msQhhlhkPMSizyfoCNEfC9iP1T0YqeAKRwCRwgohpT90WOCDyL/CpP4l37lR5n9J+DXFz3mh7N78binM3K85b2AMEFPj37mv8Kpg9g5lvcChqKzTBfGR8ijp9Gph/wTR95Hx7hXtc5kW1lZWVlZWVlZWVlZWVlZWVlZWVlZHSIQOgNLOQfyzIWeBOEAr/0TtBde9DHqmmLIvUsXuxkTytyqi9qawIp/AHl3XapOOuOg93o47XxXlfiLj0LAV3QwpeTvVA+CNJxsd1tq/Tr6cLrE6+xLO8N03H5tZ5YeRN/bGaUXl5l2Jun0MdfOqO2qdXYUnX/MuFA4mqpys2EJGqST0VqLPR/xIggwaR6XbB0dPVNPUvfWcTb6rhG9Qi2xWV0MDhiAF02yiv7y84OC9/nsjr7sO+XShGdo5FWB30un1t3wsERXHKIG8Tv9oThb536uCZ+nY/edHqj60N/qZ+lImnR3bZAeXZ7yO98mmaVTaeQj5dCbo3OJ7qS7XuSZn/NXie60e97dmp/zqUx34nx1KKlPh9wZ60KKnfjzKw53H3inE/72GLp6X3I9tMOVonk6ourQJiufm/kL6CiolHiHlXjj+C+hA5oKp7O6ME4X+AnrxfwjW8xfRBf4ybCWNRue/jJ6n8xMxpaNvvVL6SKmaScSuVAfv5guzCfJxOBr3ytbQReNeamc/VfdfXcVXYw/PGIFfkVQu4Xeh8TNJz/S3PVX0/sXCbU7orPj6P0LnPHy1xx6Lbpw/aO8VvMWqyYdFfLqK4+lIyr5vlbP3WrTCynkSQzRSa7uWM4uW0Mjz6NUGUPKtqeG6CKe7/LPQgQg0p6jmUMvyibCJOeycYAlhxdqsRfnMmFXA6U/r8WB4kYOdirNAGt5JhVey5oE93tB6nYcaGk+9vV5nEraG/wu9EQ3sd2DnpmLbRbQb+biunm6Pnw73Z3wxPvQvx8MsHbT0dj8Hkf9djKNU6axK+YgTpxwUKX8IXB6Szs2yiVCN6lVh2FkXb0MedNUG8DB/XnzyvYSCV3a9NHwQlkDB76hWiEQnp7/1+DxP0W9k+ukzq0R2/mN4gr19XEn1waeWxd5ck3oyfWwJ9cCO2fVQf8DUbMt95puUUUAAAAASUVORK5CYII=' alt='TypeScript'/>
                 </div>
               </div>
                 <div className='col-1 m-0 p-0 align-self-center'>
-                  <span>#12</span>
+                  <span>#11</span>
                 </div>
                 <div className='row'>
                 <div className='col-12'>
-                  <h4 className='text-muted span-description'>Docker</h4>
+                  <h4 className='text-muted span-description'>TypeScript</h4>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et expedita nemo illum minus quidem vero!</p>
                 </div>
               </div>

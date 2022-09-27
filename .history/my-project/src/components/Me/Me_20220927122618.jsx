@@ -11,7 +11,7 @@ function Me() {
   return (
     <div id='about'>
       <div className='row justify-content-start me-0 m-5'>
-        <div className='col-10'>
+        <div className='col-12'>
           <div className='row hero-me justify-content-center mb-5'>
             <div className='col-12 col-sm-12 col-md-7 col-lg-7'>
               <div className="card">
@@ -26,7 +26,7 @@ function Me() {
                 </div>
               </div>
             </div>
-            <div className='col-10 col-sm-10 col-md-4 col-lg-4'>
+            <div className='col-8 col-sm-10 col-md-4 col-lg-4'>
              <div className='box-img'>
                 <img src={me} alt='me'/>
               </div>
