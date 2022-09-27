@@ -94,7 +94,7 @@ function Skills() {
                 </div>
                 <div className='row'>
                 <div className='col-12'>
-                  <h4 className='text-muted span-description'>Sass</h4>
+                  <h4 className='text-muted span-description'>Tailwind Css</h4>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et expedita nemo illum minus quidem vero!</p>
                 </div>
               </div>

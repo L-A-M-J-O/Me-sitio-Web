@@ -1,14 +1,8 @@
 .card-skills{
-    border-radius: 5px;
-    background: rgba(255, 255, 255, .65);
-    background-clip: border-box;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(15px);
-    border: 1px solid rgba(41, 41, 41);
     transition: 0.5s;
 }
 .card-skills:hover{
-    transform: translateY(-10px);
+    transform: translateX(20px);
 }
 .tittle-skills{
     font-size: 2rem;

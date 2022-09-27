@@ -1,8 +1,8 @@
 
 import '../Skills/Skills.css'
 
-import skills from '../../assets/img/skills.png';
-import git from '../../assets/img/git.png';
+import skills from '../../assets/img/skills.png'
+
 
 function Skills() {
   return (
@@ -86,7 +86,7 @@ function Skills() {
               <div className='row'>
               <div className='col-2 m-0 p-2'>
                 <div className='m-img'>
-                  <img src='https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png' alt='Sass'/>
+                  <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png' alt='Tailwind Css'/>
                 </div>
               </div>
                 <div className='col-1 m-0 p-0 align-self-center'>
@@ -94,7 +94,7 @@ function Skills() {
                 </div>
                 <div className='row'>
                 <div className='col-12'>
-                  <h4 className='text-muted span-description'>Sass</h4>
+                  <h4 className='text-muted span-description'>Tailwind Css</h4>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et expedita nemo illum minus quidem vero!</p>
                 </div>
               </div>
@@ -104,15 +104,15 @@ function Skills() {
               <div className='row'>
               <div className='col-2 m-0 p-2'>
                 <div className='m-img'>
-                  <img src={git} alt='Git'/>
+                  <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png' alt='Tailwind Css'/>
                 </div>
               </div>
                 <div className='col-1 m-0 p-0 align-self-center'>
-                  <span>#6</span>
+                  <span>#4</span>
                 </div>
                 <div className='row'>
                 <div className='col-12'>
-                  <h4 className='text-muted span-description'>Git</h4>
+                  <h4 className='text-muted span-description'>Tailwind Css</h4>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et expedita nemo illum minus quidem vero!</p>
                 </div>
               </div>

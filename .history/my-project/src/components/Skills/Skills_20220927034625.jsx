@@ -1,16 +1,16 @@
 
 import '../Skills/Skills.css'
 
-import skills from '../../assets/img/skills.png';
-import git from '../../assets/img/git.png';
+import skills from '../../assets/img/skills.png'
+
 
 function Skills() {
   return (
     <div className='container-fluid mt-5'>
         <div className='row box-main justify-content-center'>
           <div className='col-12 col-sm-12 col-md-7 col-lg-7  '>
-           <div className='row gap-3 justify-content-center'>
-            <div className='card-skills col-8 col-sm-8 col-md-4 col-lg-4'>
+           <div className='row justify-content-center'>
+            <div className='col-8 col-sm-8 col-md-4 col-lg-4'>
               <div className='row'>
                 <div className='col-2 m-0 p-2'>
                   <div className='m-img'>
@@ -28,7 +28,7 @@ function Skills() {
                 </div>
               </div>
             </div>
-            <div className='card-skills col-8 col-sm-8 col-md-4 col-lg-4'>
+            <div className='col-8 col-sm-8 col-md-4 col-lg-4'>
               <div className='row'>
               <div className='col-2 m-0 p-2'>
                 <div className='m-img'>
@@ -46,7 +46,7 @@ function Skills() {
                 </div>
               </div>
             </div>
-            <div className='card-skills col-8 col-sm-8 col-md-4 col-lg-4'>
+            <div className='col-5 col-sm-8 col-md-4 col-lg-4'>
               <div className='row'>
               <div className='col-2 m-0 p-2'>
                 <div className='m-img'>
@@ -64,63 +64,9 @@ function Skills() {
               </div>
               </div>
             </div>
-            <div className='card-skills col-8 col-sm-8 col-md-4 col-lg-4'>
-              <div className='row'>
-              <div className='col-2 m-0 p-2'>
-                <div className='m-img'>
-                  <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png' alt='Tailwind Css'/>
-                </div>
-              </div>
-                <div className='col-1 m-0 p-0 align-self-center'>
-                  <span>#4</span>
-                </div>
-                <div className='row'>
-                <div className='col-12'>
-                  <h4 className='text-muted span-description'>Tailwind Css</h4>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et expedita nemo illum minus quidem vero!</p>
-                </div>
-              </div>
-              </div>
-            </div>
-            <div className='card-skills col-8 col-sm-8 col-md-4 col-lg-4'>
-              <div className='row'>
-              <div className='col-2 m-0 p-2'>
-                <div className='m-img'>
-                  <img src='https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png' alt='Sass'/>
-                </div>
-              </div>
-                <div className='col-1 m-0 p-0 align-self-center'>
-                  <span>#5</span>
-                </div>
-                <div className='row'>
-                <div className='col-12'>
-                  <h4 className='text-muted span-description'>Sass</h4>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et expedita nemo illum minus quidem vero!</p>
-                </div>
-              </div>
-              </div>
-            </div>
-            <div className='card-skills col-8 col-sm-8 col-md-4 col-lg-4'>
-              <div className='row'>
-              <div className='col-2 m-0 p-2'>
-                <div className='m-img'>
-                  <img src={git} alt='Git'/>
-                </div>
-              </div>
-                <div className='col-1 m-0 p-0 align-self-center'>
-                  <span>#6</span>
-                </div>
-                <div className='row'>
-                <div className='col-12'>
-                  <h4 className='text-muted span-description'>Git</h4>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et expedita nemo illum minus quidem vero!</p>
-                </div>
-              </div>
-              </div>
-            </div>
            </div>
           </div>
-          <div className='col-10 col-sm-10 col-md-4 col-md-4 align-self-center'>
+          <div className='col-8 col-sm-8 col-md-4 col-md-4 align-self-center'>
             <div className='row justify-content-center'>
               <div className='col-2 p-0 text-end'>
                 <img src={skills} alt='imagene de habilidades' width={50}/>
