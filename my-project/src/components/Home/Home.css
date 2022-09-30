@@ -16,15 +16,17 @@
         border-radius: 15px;
     }    
     .h-glass {
-        right: 52% !important;
+        right: 36% !important;
         top: 22% !important;
         color: #1f1f1f;
         background-attachment: initial;
         background-size:100% 130%;
+        font-size: 120px !important;
     }
     .h-regular {
-        left: 90px !important;
+        left: 40px !important;
         top:30% !important;
+        font-size: 100px !important;
     }
     nav .container .menu-btn {
         position: absolute ;
@@ -63,9 +65,12 @@ nav.fixed a{
 nav.fixed ul{
     color: #1f1f1f;
 }
+nav.fixed ul li{
+    color: #1f1f1f;
+}
 nav .media-icon{
     text-decoration: none;
-    color: #1f1f1f;
+    color: #fff
 }
 
 nav .container{
@@ -90,9 +95,10 @@ nav ul li {
     display: inline-block;
     margin: 0 1em;
     transition: 0.5s;
+    color: #fff;
 }
 nav ul li:hover {
-    font-size: 20px;
+    font-size: 20px;   
 }
 nav ul .media-icon{
     font-size: 0.8em;
@@ -111,7 +117,7 @@ nav .container .menu-btn {
 
 header {
     height: 85vh !important;
-    background-image: radial-gradient(circle at 50% -20.71%, #bae0e6 0, #bbe0e9 6.25%, #bcdfeb 12.5%, #bedfed 18.75%, #c0deef 25%, #c3ddf0 31.25%, #c6dcf1 37.5%, #c9dbf2 43.75%, #cddaf2 50%, #d1d9f2 56.25%, #d5d8f1 62.5%, #d9d7f0 68.75%, #ddd6ee 75%, #e1d5ed 81.25%, #e4d4ea 87.5%, #e8d3e8 93.75%, #ebd2e5 100%);
+    background-color: #1f1f1f;
     position: relative;
     overflow: hidden;
     border-bottom: 1px solid rgba(41, 41, 41, 10);   
@@ -140,10 +146,8 @@ header h1 {
     align-items: center;
 }
 .h-glass {
-    background: 
-    url(../../assets/img/Oddame.jpg)
-    center no-repeat fixed;
-    background-size: cover;
+    background-image: radial-gradient(circle at 50% -20.71%, #bae0e6 0, #bbe0e9 6.25%, #bcdfeb 12.5%, #bedfed 18.75%, #c0deef 25%, #c3ddf0 31.25%, #c6dcf1 37.5%, #c9dbf2 43.75%, #cddaf2 50%, #d1d9f2 56.25%, #d5d8f1 62.5%, #d9d7f0 68.75%, #ddd6ee 75%, #e1d5ed 81.25%, #e4d4ea 87.5%, #e8d3e8 93.75%, #ebd2e5 100%);
+    background-size: 500%;
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -151,13 +155,27 @@ header h1 {
     top: 28%;
     right: 0;
     animation: text1 0.8s ease-in forwards;
+    animation: animate 3s infinite alternate;
+    font-size: 250px;
+}
+
+@keyframes animate {
+
+    0%{
+        background-position: 0% 50%;
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+    
 }
 .h-regular {
-    color: #1f1f1f;
+    color: #fff;
     top: 40%;
     left: 42%;
     animation: text2 0.8s ease-in forwards;
     animation-delay: 500ms;
+    font-size: 200px;
 }
 
 .glass > div {
@@ -173,17 +191,17 @@ header h1 {
     margin: 0 1em;
 }
 .glass p {
-    color: #1f1f1f;
+    color: #fff;
     font-size: 0.9em;
     line-height: 27px;
     max-width: 27em;
 }
 
 .glass h2 {
-    color: #1f1f1f;
+    color: #fff;
 }
 .glass .media-icon {
-    color: #1f1f1f;
+    color: #fff;
     text-decoration: none;
 }
 .glass .runa {
@@ -196,8 +214,8 @@ header h1 {
     width: 115px;
     height: 24px;
     border-radius: 5px;
-    background-color: #1f1f1f;
-    border: 0;
+    background-color: transparent;
+    border: 1px solid #fff;
 }
 section {
     /* background: 
@@ -214,11 +232,6 @@ section {
 section p {
     max-width: 900px;
 }
-header h1 {
-    opacity: 0;
-}
-
-
 
 @keyframes text1 {
     0% {

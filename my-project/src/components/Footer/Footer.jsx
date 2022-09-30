@@ -24,7 +24,7 @@ function Footer() {
             </div>
             <div className='row mt-5 m-1 justify-content-center'>
                 <div className='col-12 mb-3 col-sm-12 col-md-5 col-lg-5 mb-md-0 m-0 d-flex'>
-                    <h1 className='text-footer'>thanks for seeing it</h1>
+                    <h2 className='text-footer'>thanks for seeing it</h2>
                 </div>
             </div>
             <div className='row justify-content-center justify-content-md-start justify-content-lg-start'>

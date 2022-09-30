@@ -40,3 +40,7 @@ span {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     opacity: 0.8;
 }
+.box-sticky{
+    position: sticky;
+    top: 8%;
+}
