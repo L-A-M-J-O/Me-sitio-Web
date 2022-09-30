@@ -1,9 +1,0 @@
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #a9d6bc;
-    background-position: center;
-    background-attachment: fixed;
-}
