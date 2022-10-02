@@ -1,27 +1,38 @@
-.hero-me{
-  transition: 0.5s;  
+@media screen and (max-width: 750px) {
+  .m-me-img{
+    width: calc(70% - 20px) !important;
+  }
 }
-.hero-me:hover{
-  transform: translateX(20px);
-  
+.m-me-i{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: normal;
+  font-family: Apercu,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
-.card {
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.75);
-  border-radius: 12px;
-  border: 1px solid rgba(209, 213, 219, 0.634);
+.m-me-a{
+  text-transform: uppercase;
+  font-size: 33px;
+  font-weight: 900;
+  line-height: 30px;
+  font-family: Apercu,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
-.box-img{
-  margin: 15px;
-  padding: 2px;
-  width: 200px;
-  height: 200px;
-  border-radius: 1px;
-  border: 1px solid rgba(41, 41, 41);
+.m-me-img {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  width: calc(30% - 40px);
 }
-.box-img img{
+
+.me-img{
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  padding-bottom: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  background: url(../../assets//img/me1.jpg);
+  background-size: contain;
+  background-position: 50% 50%;
+  border: 5px solid rgba(255, 255,255, 0,5);
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
