@@ -1,5 +1,7 @@
 import '../Project/Project.css';
 
+import imgRE from '../../assets/img/React-ecommerce.png'
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -31,7 +33,7 @@ export default function App() {
               <div className="card-project">
               <div className='row'>
                 <div className='col-12 col-sm-12 col-md-4 col-lg-4'>
-                  <img className='img-projects' src='https://img.freepik.com/free-psd/e-learning-landing-page-template-design_23-2149118530.jpg?w=2000' alt='projects'/>
+                  <img className='img-projects' src={imgRE} alt='projects'/>
                 </div>
                 <div className='col-12 col-sm-12 col-md-8 col-lg-8'>
                 <div className="card-body">
