@@ -54,12 +54,14 @@ nav{
     top: 0px;
     left: 0px;
     z-index: 99;
-    border-bottom: 1px solid rgb(255, 253, 253);   
+    border-bottom: 1px solid rgb(255, 253, 253); 
+
 }
 nav.fixed {
     background-color: #fff;
     transition: .3s ease-in-out;
     border-bottom: 1px solid rgba(41, 41, 41, 10);
+    box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.3);  
 }
 nav.fixed a{
     color: #1f1f1f;
@@ -98,9 +100,10 @@ nav ul li {
     margin: 0 1em;
     transition: 0.5s;
     color: #fff;
+    transition: 0.5s;
 }
 nav ul li:hover {
-    font-size: 20px;   
+    transform: scale(1.2);
 }
 nav ul .media-icon{
     font-size: 0.8em;
@@ -138,11 +141,6 @@ header h1 {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0,25);
-    box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0,3);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0,18);
     display: flex;
     justify-content: center;
     align-items: center;

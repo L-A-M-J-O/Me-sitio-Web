@@ -16,7 +16,7 @@ h4 {
     width: 180px;
 }
 .card-skills:hover{
-    transform: translateY(-20px);
+    transform: translateY(-8px);
 }
 .tittle-skills{
     font-size: 2rem;
