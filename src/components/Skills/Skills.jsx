@@ -185,7 +185,7 @@ function Skills() {
                 <h5 className='tittle-skills'>skills and knowledge</h5>
               </div>
               <div className='col-10 tittle-skills-p'>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi ipsa, saepe repudiandae sapiente placeat possimus harum mollitia eos magni error, qui earum sit at eligendi rem! Consequuntur quo voluptatum facere delectus sapiente non ratione laboriosam et aperiam nihil quis officia, quam, laborum quos consequatur? Recusandae corporis quibusdam repellendus culpa ratione.</p>
+                <p>Dominant skills that I have are the ones you see, in each of them I have their methodology, libraries and frameworks, I have the ability to adapt to the situation quickly and thus understand and learn to program, I learned this knowledge in academies and in google for myself bill</p>
               </div>
             </div>
           </div>

@@ -73,8 +73,8 @@ function Home() {
                 </div>
                 <div>
                     <h2>Portfolio</h2>
-                    <p><i>Dios, Hijo de Odin</i></p>
-                    <p>Hello my name is alan I think it looks great up there haha I hope you are well I would love to introduce you I was born in Colombia and since I was 15 years old I have dedicated myself to programming. it all started...</p>
+                    <p><i></i></p>
+                    <p>I am a guy who wants to create Yarbis from the Tony Stark movie, it may sound fanciful but it can be done if you imagine it means it can be done, I live in Madrid Spain and I created several test icommerce, as well as shipments. . pages, and I keep trying to find many more ways to improve and innovate web development, Start. .</p>
                     <Link to='about' className='media-icon-arrow'>
                         <button className='btn-runa'><FontAwesomeIcon className='runa' icon={faArrowRight}/> Read More</button>
                     </Link>
