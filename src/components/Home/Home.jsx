@@ -81,7 +81,8 @@ function Home() {
                 </div>
             </div>
         </div>
-        <h1 className='h-regular'>Naranjo</h1>
+        <div className='me-img'>
+        </div>  
     </header>
     </>
   )

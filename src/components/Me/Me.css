@@ -25,13 +25,14 @@
 }
 
 .me-img{
-  width: 100%;
+  top: 50%;
+  left: 60%;
+  width: 400px;
+  position: relative;
   padding-bottom: 100%;
   border-radius: 50%;
-  overflow: hidden;
   background: url(../../assets//img/me1.jpg);
   background-size: contain;
-  background-position: 50% 50%;
   border: 5px solid rgba(255, 255,255, 0,5);
   border-radius: 50%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;

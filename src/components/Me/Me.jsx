@@ -5,11 +5,7 @@ function Me() {
     <div id='about'>
       <div className='container'>
         <div className='row g-2 justify-content-center mt-5'>
-          <div className='col-12 col-sm-12 col-md-6 col-lg-6 m-5 text-center m-me-img'>
-            <div className='me-img'>
-            </div>  
-          </div>
-          <div className='col-10 col-sm-12 col-md-6 col-lg-6 align-self-center'>
+          <div className='col-10 align-self-center'>
             <div className='box-hero-me row row-cols-1 justify-content-center'>
               <div className='col-10 text-center'><h4 className='m-me-a'>Alan Mateo Naranjo Alvarado</h4></div>
               <div className='col-8 text-center text-muted'><p className='m-me-i'>Front End Engineer</p></div>
